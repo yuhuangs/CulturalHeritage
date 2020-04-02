@@ -1,0 +1,1663 @@
+[ 2020-02-06T09:23:34+08:00 ] ::1 /test/culture3.0/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000971s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001069s ]
+SQL: SHOW COLUMNS FROM `tb_picture` [ RunTime:0.073196s ]
+SQL: SELECT * FROM `tb_picture` WHERE `type` = 'slide'  [ RunTime:0.000957s ]
+SQL: SHOW COLUMNS FROM `tb_notice` [ RunTime:0.008952s ]
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\test\culture3.0\App\Home\Controller\IndexController.class.php 第 15 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\test\culture3.0\ThinkPHP\Library\Think\Db.class.php 第 786 行.
+SQL: SELECT * FROM `tb_notice` WHERE ( id>=1 ) ORDER BY `time` desc LIMIT 0,20   [ RunTime:0.000662s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_notice` WHERE ( id>=1 ) LIMIT 1   [ RunTime:0.000320s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\test\culture3.0\App\Home\Controller\IndexController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `tb_policy` [ RunTime:0.006071s ]
+SQL: SELECT * FROM `tb_policy` WHERE ( id>=1 ) ORDER BY `time` desc  [ RunTime:0.000399s ]
+SQL: SHOW COLUMNS FROM `tb_director` [ RunTime:0.006125s ]
+SQL: SELECT * FROM `tb_director` WHERE ( Did>=1 ) ORDER BY `Did` asc  [ RunTime:0.000389s ]
+SQL: SHOW COLUMNS FROM `tb_dynamic` [ RunTime:0.005952s ]
+SQL: SELECT * FROM `tb_dynamic` WHERE ( id>=1 ) ORDER BY `time` desc  [ RunTime:0.000536s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010623s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010717s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000443s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001136s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001260s ]
+
+[ 2020-02-06T09:23:41+08:00 ] ::1 /test/culture3.0/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000572s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000636s ]
+SQL: SHOW COLUMNS FROM `tb_picture` [ RunTime:0.074392s ]
+SQL: SELECT * FROM `tb_picture` WHERE `type` = 'slide'  [ RunTime:0.001156s ]
+SQL: SHOW COLUMNS FROM `tb_notice` [ RunTime:0.014258s ]
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\test\culture3.0\App\Home\Controller\IndexController.class.php 第 15 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\test\culture3.0\ThinkPHP\Library\Think\Db.class.php 第 786 行.
+SQL: SELECT * FROM `tb_notice` WHERE ( id>=1 ) ORDER BY `time` desc LIMIT 0,20   [ RunTime:0.000939s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_notice` WHERE ( id>=1 ) LIMIT 1   [ RunTime:0.000480s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\test\culture3.0\App\Home\Controller\IndexController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `tb_policy` [ RunTime:0.007048s ]
+SQL: SELECT * FROM `tb_policy` WHERE ( id>=1 ) ORDER BY `time` desc  [ RunTime:0.000501s ]
+SQL: SHOW COLUMNS FROM `tb_director` [ RunTime:0.006744s ]
+SQL: SELECT * FROM `tb_director` WHERE ( Did>=1 ) ORDER BY `Did` asc  [ RunTime:0.000378s ]
+SQL: SHOW COLUMNS FROM `tb_dynamic` [ RunTime:0.005683s ]
+SQL: SELECT * FROM `tb_dynamic` WHERE ( id>=1 ) ORDER BY `time` desc  [ RunTime:0.000394s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008792s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008855s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000276s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000565s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000623s ]
+
+[ 2020-02-06T09:25:39+08:00 ] ::1 /test/culture3.0/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000424s ]
+SQL: SHOW COLUMNS FROM `tb_picture` [ RunTime:0.089902s ]
+SQL: SELECT * FROM `tb_picture` WHERE `type` = 'slide'  [ RunTime:0.001249s ]
+SQL: SHOW COLUMNS FROM `tb_notice` [ RunTime:0.015438s ]
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\test\culture3.0\App\Home\Controller\IndexController.class.php 第 15 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\test\culture3.0\ThinkPHP\Library\Think\Db.class.php 第 786 行.
+SQL: SELECT * FROM `tb_notice` WHERE ( id>=1 ) ORDER BY `time` desc LIMIT 0,20   [ RunTime:0.001090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_notice` WHERE ( id>=1 ) LIMIT 1   [ RunTime:0.000489s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\test\culture3.0\App\Home\Controller\IndexController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `tb_policy` [ RunTime:0.007574s ]
+SQL: SELECT * FROM `tb_policy` WHERE ( id>=1 ) ORDER BY `time` desc  [ RunTime:0.000547s ]
+SQL: SHOW COLUMNS FROM `tb_director` [ RunTime:0.006639s ]
+SQL: SELECT * FROM `tb_director` WHERE ( Did>=1 ) ORDER BY `Did` asc  [ RunTime:0.000420s ]
+SQL: SHOW COLUMNS FROM `tb_dynamic` [ RunTime:0.011577s ]
+SQL: SELECT * FROM `tb_dynamic` WHERE ( id>=1 ) ORDER BY `time` desc  [ RunTime:0.000396s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008212s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008274s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000199s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000240s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000482s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000540s ]
+
+[ 2020-02-06T09:29:38+08:00 ] ::1 /test/culture3.0/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000618s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000992s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001136s ]
+SQL: SHOW COLUMNS FROM `tb_picture` [ RunTime:0.015509s ]
+SQL: SELECT * FROM `tb_picture` WHERE `type` = 'slide'  [ RunTime:0.000964s ]
+SQL: SHOW COLUMNS FROM `tb_notice` [ RunTime:0.009767s ]
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\test\culture3.0\App\Home\Controller\IndexController.class.php 第 15 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\test\culture3.0\ThinkPHP\Library\Think\Db.class.php 第 786 行.
+SQL: SELECT * FROM `tb_notice` WHERE ( id>=1 ) ORDER BY `time` desc LIMIT 0,20   [ RunTime:0.000618s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_notice` WHERE ( id>=1 ) LIMIT 1   [ RunTime:0.000357s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\test\culture3.0\App\Home\Controller\IndexController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `tb_policy` [ RunTime:0.005437s ]
+SQL: SELECT * FROM `tb_policy` WHERE ( id>=1 ) ORDER BY `time` desc  [ RunTime:0.000422s ]
+SQL: SHOW COLUMNS FROM `tb_director` [ RunTime:0.005152s ]
+SQL: SELECT * FROM `tb_director` WHERE ( Did>=1 ) ORDER BY `Did` asc  [ RunTime:0.000366s ]
+SQL: SHOW COLUMNS FROM `tb_dynamic` [ RunTime:0.005412s ]
+SQL: SELECT * FROM `tb_dynamic` WHERE ( id>=1 ) ORDER BY `time` desc  [ RunTime:0.000386s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008552s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008615s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000278s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000568s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000627s ]
+
+[ 2020-02-06T09:30:23+08:00 ] ::1 /test/culture3.0/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000427s ]
+SQL: SHOW COLUMNS FROM `tb_picture` [ RunTime:0.006263s ]
+SQL: SELECT * FROM `tb_picture` WHERE `type` = 'slide'  [ RunTime:0.000341s ]
+SQL: SHOW COLUMNS FROM `tb_notice` [ RunTime:0.005614s ]
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\test\culture3.0\App\Home\Controller\IndexController.class.php 第 15 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\test\culture3.0\ThinkPHP\Library\Think\Db.class.php 第 786 行.
+SQL: SELECT * FROM `tb_notice` WHERE ( id>=1 ) ORDER BY `time` desc LIMIT 0,20   [ RunTime:0.000466s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_notice` WHERE ( id>=1 ) LIMIT 1   [ RunTime:0.000246s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\test\culture3.0\App\Home\Controller\IndexController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `tb_policy` [ RunTime:0.004714s ]
+SQL: SELECT * FROM `tb_policy` WHERE ( id>=1 ) ORDER BY `time` desc  [ RunTime:0.000430s ]
+SQL: SHOW COLUMNS FROM `tb_director` [ RunTime:0.006110s ]
+SQL: SELECT * FROM `tb_director` WHERE ( Did>=1 ) ORDER BY `Did` asc  [ RunTime:0.000385s ]
+SQL: SHOW COLUMNS FROM `tb_dynamic` [ RunTime:0.005672s ]
+SQL: SELECT * FROM `tb_dynamic` WHERE ( id>=1 ) ORDER BY `time` desc  [ RunTime:0.000407s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008235s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008300s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000200s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000472s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000532s ]
+
+[ 2020-02-06T10:34:51+08:00 ] ::1 /test/culture3.0/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.016975s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008241s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008542s ]
+SQL: SHOW COLUMNS FROM `tb_picture` [ RunTime:0.093633s ]
+SQL: SELECT * FROM `tb_picture` WHERE `type` = 'slide'  [ RunTime:0.001902s ]
+SQL: SHOW COLUMNS FROM `tb_notice` [ RunTime:0.079984s ]
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\test\culture3.0\App\Home\Controller\IndexController.class.php 第 15 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\test\culture3.0\ThinkPHP\Library\Think\Db.class.php 第 786 行.
+SQL: SELECT * FROM `tb_notice` WHERE ( id>=1 ) ORDER BY `time` desc LIMIT 0,20   [ RunTime:0.022683s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_notice` WHERE ( id>=1 ) LIMIT 1   [ RunTime:0.021833s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\test\culture3.0\App\Home\Controller\IndexController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `tb_policy` [ RunTime:0.017515s ]
+SQL: SELECT * FROM `tb_policy` WHERE ( id>=1 ) ORDER BY `time` desc  [ RunTime:0.002128s ]
+SQL: SHOW COLUMNS FROM `tb_director` [ RunTime:0.024565s ]
+SQL: SELECT * FROM `tb_director` WHERE ( Did>=1 ) ORDER BY `Did` asc  [ RunTime:0.000592s ]
+SQL: SHOW COLUMNS FROM `tb_dynamic` [ RunTime:0.014585s ]
+SQL: SELECT * FROM `tb_dynamic` WHERE ( id>=1 ) ORDER BY `time` desc  [ RunTime:0.001305s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000288s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000582s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.103212s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.103351s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.012246s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012365s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002229s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002423s ]
+
+[ 2020-02-06T10:35:54+08:00 ] ::1 /test/culture3.0/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000427s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000490s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000549s ]
+SQL: SHOW COLUMNS FROM `tb_picture` [ RunTime:0.071191s ]
+SQL: SELECT * FROM `tb_picture` WHERE `type` = 'slide'  [ RunTime:0.000739s ]
+SQL: SHOW COLUMNS FROM `tb_notice` [ RunTime:0.008460s ]
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\test\culture3.0\App\Home\Controller\IndexController.class.php 第 15 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\test\culture3.0\ThinkPHP\Library\Think\Db.class.php 第 786 行.
+SQL: SELECT * FROM `tb_notice` WHERE ( id>=1 ) ORDER BY `time` desc LIMIT 0,20   [ RunTime:0.000605s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_notice` WHERE ( id>=1 ) LIMIT 1   [ RunTime:0.000317s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\test\culture3.0\App\Home\Controller\IndexController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `tb_policy` [ RunTime:0.005003s ]
+SQL: SELECT * FROM `tb_policy` WHERE ( id>=1 ) ORDER BY `time` desc  [ RunTime:0.000435s ]
+SQL: SHOW COLUMNS FROM `tb_director` [ RunTime:0.005595s ]
+SQL: SELECT * FROM `tb_director` WHERE ( Did>=1 ) ORDER BY `Did` asc  [ RunTime:0.000352s ]
+SQL: SHOW COLUMNS FROM `tb_dynamic` [ RunTime:0.005461s ]
+SQL: SELECT * FROM `tb_dynamic` WHERE ( id>=1 ) ORDER BY `time` desc  [ RunTime:0.000421s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009137s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009201s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000279s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000568s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000628s ]
+
+[ 2020-02-06T10:37:42+08:00 ] ::1 /test/culture3.0/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000725s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000792s ]
+SQL: SHOW COLUMNS FROM `tb_picture` [ RunTime:0.120515s ]
+SQL: SELECT * FROM `tb_picture` WHERE `type` = 'slide'  [ RunTime:0.000331s ]
+SQL: SHOW COLUMNS FROM `tb_notice` [ RunTime:0.051677s ]
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\test\culture3.0\App\Home\Controller\IndexController.class.php 第 15 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\test\culture3.0\ThinkPHP\Library\Think\Db.class.php 第 786 行.
+SQL: SELECT * FROM `tb_notice` WHERE ( id>=1 ) ORDER BY `time` desc LIMIT 0,20   [ RunTime:0.000513s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_notice` WHERE ( id>=1 ) LIMIT 1   [ RunTime:0.000267s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\test\culture3.0\App\Home\Controller\IndexController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `tb_policy` [ RunTime:0.094945s ]
+SQL: SELECT * FROM `tb_policy` WHERE ( id>=1 ) ORDER BY `time` desc  [ RunTime:0.000423s ]
+SQL: SHOW COLUMNS FROM `tb_director` [ RunTime:0.005020s ]
+SQL: SELECT * FROM `tb_director` WHERE ( Did>=1 ) ORDER BY `Did` asc  [ RunTime:0.000426s ]
+SQL: SHOW COLUMNS FROM `tb_dynamic` [ RunTime:0.004735s ]
+SQL: SELECT * FROM `tb_dynamic` WHERE ( id>=1 ) ORDER BY `time` desc  [ RunTime:0.000452s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014837s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014948s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000487s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000583s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001030s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001155s ]
+
+[ 2020-02-06T10:37:51+08:00 ] ::1 /test/culture3.0/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000424s ]
+SQL: SHOW COLUMNS FROM `tb_picture` [ RunTime:0.016391s ]
+SQL: SELECT * FROM `tb_picture` WHERE `type` = 'slide'  [ RunTime:0.001003s ]
+SQL: SHOW COLUMNS FROM `tb_notice` [ RunTime:0.014741s ]
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\test\culture3.0\App\Home\Controller\IndexController.class.php 第 15 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\test\culture3.0\ThinkPHP\Library\Think\Db.class.php 第 786 行.
+SQL: SELECT * FROM `tb_notice` WHERE ( id>=1 ) ORDER BY `time` desc LIMIT 0,20   [ RunTime:0.000937s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_notice` WHERE ( id>=1 ) LIMIT 1   [ RunTime:0.000515s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\test\culture3.0\App\Home\Controller\IndexController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `tb_policy` [ RunTime:0.007509s ]
+SQL: SELECT * FROM `tb_policy` WHERE ( id>=1 ) ORDER BY `time` desc  [ RunTime:0.000506s ]
+SQL: SHOW COLUMNS FROM `tb_director` [ RunTime:0.006237s ]
+SQL: SELECT * FROM `tb_director` WHERE ( Did>=1 ) ORDER BY `Did` asc  [ RunTime:0.000388s ]
+SQL: SHOW COLUMNS FROM `tb_dynamic` [ RunTime:0.005840s ]
+SQL: SELECT * FROM `tb_dynamic` WHERE ( id>=1 ) ORDER BY `time` desc  [ RunTime:0.000394s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007980s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008040s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000195s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000478s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000535s ]
+
+[ 2020-02-06T10:38:13+08:00 ] ::1 /test/culture3.0/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000420s ]
+SQL: SHOW COLUMNS FROM `tb_picture` [ RunTime:0.009533s ]
+SQL: SELECT * FROM `tb_picture` WHERE `type` = 'slide'  [ RunTime:0.000324s ]
+SQL: SHOW COLUMNS FROM `tb_notice` [ RunTime:0.005894s ]
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\test\culture3.0\App\Home\Controller\IndexController.class.php 第 15 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\test\culture3.0\ThinkPHP\Library\Think\Db.class.php 第 786 行.
+SQL: SELECT * FROM `tb_notice` WHERE ( id>=1 ) ORDER BY `time` desc LIMIT 0,20   [ RunTime:0.000448s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_notice` WHERE ( id>=1 ) LIMIT 1   [ RunTime:0.000232s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\test\culture3.0\App\Home\Controller\IndexController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `tb_policy` [ RunTime:0.004409s ]
+SQL: SELECT * FROM `tb_policy` WHERE ( id>=1 ) ORDER BY `time` desc  [ RunTime:0.000376s ]
+SQL: SHOW COLUMNS FROM `tb_director` [ RunTime:0.005884s ]
+SQL: SELECT * FROM `tb_director` WHERE ( Did>=1 ) ORDER BY `Did` asc  [ RunTime:0.000356s ]
+SQL: SHOW COLUMNS FROM `tb_dynamic` [ RunTime:0.005449s ]
+SQL: SELECT * FROM `tb_dynamic` WHERE ( id>=1 ) ORDER BY `time` desc  [ RunTime:0.000461s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000195s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008091s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008152s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000193s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000469s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000528s ]
+
+[ 2020-02-06T10:39:23+08:00 ] ::1 /test/culture3.0/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000419s ]
+SQL: SHOW COLUMNS FROM `tb_picture` [ RunTime:0.011562s ]
+SQL: SELECT * FROM `tb_picture` WHERE `type` = 'slide'  [ RunTime:0.000797s ]
+SQL: SHOW COLUMNS FROM `tb_notice` [ RunTime:0.012239s ]
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\test\culture3.0\App\Home\Controller\IndexController.class.php 第 15 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\test\culture3.0\ThinkPHP\Library\Think\Db.class.php 第 786 行.
+SQL: SELECT * FROM `tb_notice` WHERE ( id>=1 ) ORDER BY `time` desc LIMIT 0,20   [ RunTime:0.000844s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_notice` WHERE ( id>=1 ) LIMIT 1   [ RunTime:0.000453s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\test\culture3.0\App\Home\Controller\IndexController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `tb_policy` [ RunTime:0.006742s ]
+SQL: SELECT * FROM `tb_policy` WHERE ( id>=1 ) ORDER BY `time` desc  [ RunTime:0.000490s ]
+SQL: SHOW COLUMNS FROM `tb_director` [ RunTime:0.006865s ]
+SQL: SELECT * FROM `tb_director` WHERE ( Did>=1 ) ORDER BY `Did` asc  [ RunTime:0.000401s ]
+SQL: SHOW COLUMNS FROM `tb_dynamic` [ RunTime:0.006190s ]
+SQL: SELECT * FROM `tb_dynamic` WHERE ( id>=1 ) ORDER BY `time` desc  [ RunTime:0.000390s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008091s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008151s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000194s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000235s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000471s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000531s ]
+
+[ 2020-02-06T10:40:00+08:00 ] ::1 /test/culture3.0/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000634s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001547s ]
+SQL: SHOW COLUMNS FROM `tb_picture` [ RunTime:0.014964s ]
+SQL: SELECT * FROM `tb_picture` WHERE `type` = 'slide'  [ RunTime:0.000827s ]
+SQL: SHOW COLUMNS FROM `tb_notice` [ RunTime:0.008884s ]
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\test\culture3.0\App\Home\Controller\IndexController.class.php 第 15 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\test\culture3.0\ThinkPHP\Library\Think\Db.class.php 第 786 行.
+SQL: SELECT * FROM `tb_notice` WHERE ( id>=1 ) ORDER BY `time` desc LIMIT 0,20   [ RunTime:0.000665s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_notice` WHERE ( id>=1 ) LIMIT 1   [ RunTime:0.000324s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\test\culture3.0\App\Home\Controller\IndexController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `tb_policy` [ RunTime:0.005576s ]
+SQL: SELECT * FROM `tb_policy` WHERE ( id>=1 ) ORDER BY `time` desc  [ RunTime:0.000428s ]
+SQL: SHOW COLUMNS FROM `tb_director` [ RunTime:0.005634s ]
+SQL: SELECT * FROM `tb_director` WHERE ( Did>=1 ) ORDER BY `Did` asc  [ RunTime:0.000362s ]
+SQL: SHOW COLUMNS FROM `tb_dynamic` [ RunTime:0.005573s ]
+SQL: SELECT * FROM `tb_dynamic` WHERE ( id>=1 ) ORDER BY `time` desc  [ RunTime:0.000389s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008517s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008578s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000359s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000568s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000626s ]
+
+[ 2020-02-06T10:40:24+08:00 ] ::1 /test/culture3.0/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000407s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000485s ]
+SQL: SHOW COLUMNS FROM `tb_picture` [ RunTime:0.011493s ]
+SQL: SELECT * FROM `tb_picture` WHERE `type` = 'slide'  [ RunTime:0.000771s ]
+SQL: SHOW COLUMNS FROM `tb_notice` [ RunTime:0.010664s ]
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\test\culture3.0\App\Home\Controller\IndexController.class.php 第 15 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\test\culture3.0\ThinkPHP\Library\Think\Db.class.php 第 786 行.
+SQL: SELECT * FROM `tb_notice` WHERE ( id>=1 ) ORDER BY `time` desc LIMIT 0,20   [ RunTime:0.000719s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_notice` WHERE ( id>=1 ) LIMIT 1   [ RunTime:0.000357s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\test\culture3.0\App\Home\Controller\IndexController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `tb_policy` [ RunTime:0.006252s ]
+SQL: SELECT * FROM `tb_policy` WHERE ( id>=1 ) ORDER BY `time` desc  [ RunTime:0.000497s ]
+SQL: SHOW COLUMNS FROM `tb_director` [ RunTime:0.005603s ]
+SQL: SELECT * FROM `tb_director` WHERE ( Did>=1 ) ORDER BY `Did` asc  [ RunTime:0.000462s ]
+SQL: SHOW COLUMNS FROM `tb_dynamic` [ RunTime:0.004845s ]
+SQL: SELECT * FROM `tb_dynamic` WHERE ( id>=1 ) ORDER BY `time` desc  [ RunTime:0.000470s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008865s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008924s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000193s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000572s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000649s ]
+
+[ 2020-02-06T10:41:48+08:00 ] ::1 /test/culture3.0/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000442s ]
+SQL: SHOW COLUMNS FROM `tb_picture` [ RunTime:0.007988s ]
+SQL: SELECT * FROM `tb_picture` WHERE `type` = 'slide'  [ RunTime:0.000586s ]
+SQL: SHOW COLUMNS FROM `tb_notice` [ RunTime:0.007584s ]
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\test\culture3.0\App\Home\Controller\IndexController.class.php 第 15 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\test\culture3.0\ThinkPHP\Library\Think\Db.class.php 第 786 行.
+SQL: SELECT * FROM `tb_notice` WHERE ( id>=1 ) ORDER BY `time` desc LIMIT 0,20   [ RunTime:0.000611s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_notice` WHERE ( id>=1 ) LIMIT 1   [ RunTime:0.000274s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\test\culture3.0\App\Home\Controller\IndexController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `tb_policy` [ RunTime:0.004759s ]
+SQL: SELECT * FROM `tb_policy` WHERE ( id>=1 ) ORDER BY `time` desc  [ RunTime:0.000382s ]
+SQL: SHOW COLUMNS FROM `tb_director` [ RunTime:0.006475s ]
+SQL: SELECT * FROM `tb_director` WHERE ( Did>=1 ) ORDER BY `Did` asc  [ RunTime:0.000352s ]
+SQL: SHOW COLUMNS FROM `tb_dynamic` [ RunTime:0.006235s ]
+SQL: SELECT * FROM `tb_dynamic` WHERE ( id>=1 ) ORDER BY `time` desc  [ RunTime:0.000390s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008334s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008395s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000195s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000462s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000520s ]
+
+[ 2020-02-06T10:42:25+08:00 ] ::1 /test/culture3.0/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000522s ]
+SQL: SHOW COLUMNS FROM `tb_picture` [ RunTime:0.028442s ]
+SQL: SELECT * FROM `tb_picture` WHERE `type` = 'slide'  [ RunTime:0.000431s ]
+SQL: SHOW COLUMNS FROM `tb_notice` [ RunTime:0.101369s ]
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\test\culture3.0\App\Home\Controller\IndexController.class.php 第 15 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\test\culture3.0\ThinkPHP\Library\Think\Db.class.php 第 786 行.
+SQL: SELECT * FROM `tb_notice` WHERE ( id>=1 ) ORDER BY `time` desc LIMIT 0,20   [ RunTime:0.000653s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_notice` WHERE ( id>=1 ) LIMIT 1   [ RunTime:0.000341s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\test\culture3.0\App\Home\Controller\IndexController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `tb_policy` [ RunTime:0.027225s ]
+SQL: SELECT * FROM `tb_policy` WHERE ( id>=1 ) ORDER BY `time` desc  [ RunTime:0.000729s ]
+SQL: SHOW COLUMNS FROM `tb_director` [ RunTime:0.075687s ]
+SQL: SELECT * FROM `tb_director` WHERE ( Did>=1 ) ORDER BY `Did` asc  [ RunTime:0.001158s ]
+SQL: SHOW COLUMNS FROM `tb_dynamic` [ RunTime:0.051226s ]
+SQL: SELECT * FROM `tb_dynamic` WHERE ( id>=1 ) ORDER BY `time` desc  [ RunTime:0.001174s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000128s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000234s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022786s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000627s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000729s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001014s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001144s ]
+
+[ 2020-02-06T10:42:52+08:00 ] ::1 /test/culture3.0/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001715s ]
+SQL: SHOW COLUMNS FROM `tb_picture` [ RunTime:0.009011s ]
+SQL: SELECT * FROM `tb_picture` WHERE `type` = 'slide'  [ RunTime:0.000603s ]
+SQL: SHOW COLUMNS FROM `tb_notice` [ RunTime:0.009284s ]
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\test\culture3.0\App\Home\Controller\IndexController.class.php 第 15 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\test\culture3.0\ThinkPHP\Library\Think\Db.class.php 第 786 行.
+SQL: SELECT * FROM `tb_notice` WHERE ( id>=1 ) ORDER BY `time` desc LIMIT 0,20   [ RunTime:0.000863s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_notice` WHERE ( id>=1 ) LIMIT 1   [ RunTime:0.000435s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\test\culture3.0\App\Home\Controller\IndexController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `tb_policy` [ RunTime:0.008121s ]
+SQL: SELECT * FROM `tb_policy` WHERE ( id>=1 ) ORDER BY `time` desc  [ RunTime:0.000614s ]
+SQL: SHOW COLUMNS FROM `tb_director` [ RunTime:0.007007s ]
+SQL: SELECT * FROM `tb_director` WHERE ( Did>=1 ) ORDER BY `Did` asc  [ RunTime:0.000452s ]
+SQL: SHOW COLUMNS FROM `tb_dynamic` [ RunTime:0.005495s ]
+SQL: SELECT * FROM `tb_dynamic` WHERE ( id>=1 ) ORDER BY `time` desc  [ RunTime:0.000394s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008573s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008633s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000277s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000319s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000572s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000630s ]
+
+[ 2020-02-06T10:43:45+08:00 ] ::1 /test/culture3.0/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000420s ]
+SQL: SHOW COLUMNS FROM `tb_picture` [ RunTime:0.015786s ]
+SQL: SELECT * FROM `tb_picture` WHERE `type` = 'slide'  [ RunTime:0.000786s ]
+SQL: SHOW COLUMNS FROM `tb_notice` [ RunTime:0.012200s ]
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\test\culture3.0\App\Home\Controller\IndexController.class.php 第 15 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\test\culture3.0\ThinkPHP\Library\Think\Db.class.php 第 786 行.
+SQL: SELECT * FROM `tb_notice` WHERE ( id>=1 ) ORDER BY `time` desc LIMIT 0,20   [ RunTime:0.000843s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_notice` WHERE ( id>=1 ) LIMIT 1   [ RunTime:0.000435s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\test\culture3.0\App\Home\Controller\IndexController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `tb_policy` [ RunTime:0.006678s ]
+SQL: SELECT * FROM `tb_policy` WHERE ( id>=1 ) ORDER BY `time` desc  [ RunTime:0.000514s ]
+SQL: SHOW COLUMNS FROM `tb_director` [ RunTime:0.006362s ]
+SQL: SELECT * FROM `tb_director` WHERE ( Did>=1 ) ORDER BY `Did` asc  [ RunTime:0.000424s ]
+SQL: SHOW COLUMNS FROM `tb_dynamic` [ RunTime:0.005549s ]
+SQL: SELECT * FROM `tb_dynamic` WHERE ( id>=1 ) ORDER BY `time` desc  [ RunTime:0.000392s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008506s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008565s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000198s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000240s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000475s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000534s ]
+
+[ 2020-02-06T10:43:50+08:00 ] ::1 /test/culture3.0/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000431s ]
+SQL: SHOW COLUMNS FROM `tb_picture` [ RunTime:0.009236s ]
+SQL: SELECT * FROM `tb_picture` WHERE `type` = 'slide'  [ RunTime:0.000330s ]
+SQL: SHOW COLUMNS FROM `tb_notice` [ RunTime:0.005536s ]
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\test\culture3.0\App\Home\Controller\IndexController.class.php 第 15 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\test\culture3.0\ThinkPHP\Library\Think\Db.class.php 第 786 行.
+SQL: SELECT * FROM `tb_notice` WHERE ( id>=1 ) ORDER BY `time` desc LIMIT 0,20   [ RunTime:0.000565s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_notice` WHERE ( id>=1 ) LIMIT 1   [ RunTime:0.000248s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\test\culture3.0\App\Home\Controller\IndexController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `tb_policy` [ RunTime:0.004714s ]
+SQL: SELECT * FROM `tb_policy` WHERE ( id>=1 ) ORDER BY `time` desc  [ RunTime:0.000397s ]
+SQL: SHOW COLUMNS FROM `tb_director` [ RunTime:0.005558s ]
+SQL: SELECT * FROM `tb_director` WHERE ( Did>=1 ) ORDER BY `Did` asc  [ RunTime:0.000408s ]
+SQL: SHOW COLUMNS FROM `tb_dynamic` [ RunTime:0.005350s ]
+SQL: SELECT * FROM `tb_dynamic` WHERE ( id>=1 ) ORDER BY `time` desc  [ RunTime:0.000390s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007821s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007879s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000193s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000234s ]
+
+[ 2020-02-06T10:43:52+08:00 ] ::1 /test/culture3.0/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000508s ]
+SQL: SHOW COLUMNS FROM `tb_picture` [ RunTime:0.006274s ]
+SQL: SELECT * FROM `tb_picture` WHERE `type` = 'slide'  [ RunTime:0.000373s ]
+SQL: SHOW COLUMNS FROM `tb_notice` [ RunTime:0.005485s ]
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\test\culture3.0\App\Home\Controller\IndexController.class.php 第 15 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\test\culture3.0\ThinkPHP\Library\Think\Db.class.php 第 786 行.
+SQL: SELECT * FROM `tb_notice` WHERE ( id>=1 ) ORDER BY `time` desc LIMIT 0,20   [ RunTime:0.000439s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_notice` WHERE ( id>=1 ) LIMIT 1   [ RunTime:0.000252s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\test\culture3.0\App\Home\Controller\IndexController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `tb_policy` [ RunTime:0.004268s ]
+SQL: SELECT * FROM `tb_policy` WHERE ( id>=1 ) ORDER BY `time` desc  [ RunTime:0.000372s ]
+SQL: SHOW COLUMNS FROM `tb_director` [ RunTime:0.005711s ]
+SQL: SELECT * FROM `tb_director` WHERE ( Did>=1 ) ORDER BY `Did` asc  [ RunTime:0.000389s ]
+SQL: SHOW COLUMNS FROM `tb_dynamic` [ RunTime:0.005602s ]
+SQL: SELECT * FROM `tb_dynamic` WHERE ( id>=1 ) ORDER BY `time` desc  [ RunTime:0.000390s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007948s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008010s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000208s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000471s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000527s ]
+
+[ 2020-02-06T10:44:11+08:00 ] ::1 /test/culture3.0/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000604s ]
+SQL: SHOW COLUMNS FROM `tb_picture` [ RunTime:0.010706s ]
+SQL: SELECT * FROM `tb_picture` WHERE `type` = 'slide'  [ RunTime:0.000331s ]
+SQL: SHOW COLUMNS FROM `tb_notice` [ RunTime:0.006547s ]
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\test\culture3.0\App\Home\Controller\IndexController.class.php 第 15 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\test\culture3.0\ThinkPHP\Library\Think\Db.class.php 第 786 行.
+SQL: SELECT * FROM `tb_notice` WHERE ( id>=1 ) ORDER BY `time` desc LIMIT 0,20   [ RunTime:0.000446s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_notice` WHERE ( id>=1 ) LIMIT 1   [ RunTime:0.000242s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\test\culture3.0\App\Home\Controller\IndexController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `tb_policy` [ RunTime:0.004410s ]
+SQL: SELECT * FROM `tb_policy` WHERE ( id>=1 ) ORDER BY `time` desc  [ RunTime:0.000410s ]
+SQL: SHOW COLUMNS FROM `tb_director` [ RunTime:0.005550s ]
+SQL: SELECT * FROM `tb_director` WHERE ( Did>=1 ) ORDER BY `Did` asc  [ RunTime:0.000362s ]
+SQL: SHOW COLUMNS FROM `tb_dynamic` [ RunTime:0.005480s ]
+SQL: SELECT * FROM `tb_dynamic` WHERE ( id>=1 ) ORDER BY `time` desc  [ RunTime:0.000400s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000134s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008939s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008999s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000194s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000468s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000525s ]
+
+[ 2020-02-06T10:44:15+08:00 ] ::1 /test/culture3.0/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000419s ]
+SQL: SHOW COLUMNS FROM `tb_picture` [ RunTime:0.017868s ]
+SQL: SELECT * FROM `tb_picture` WHERE `type` = 'slide'  [ RunTime:0.000936s ]
+SQL: SHOW COLUMNS FROM `tb_notice` [ RunTime:0.011175s ]
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\test\culture3.0\App\Home\Controller\IndexController.class.php 第 15 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\test\culture3.0\ThinkPHP\Library\Think\Db.class.php 第 786 行.
+SQL: SELECT * FROM `tb_notice` WHERE ( id>=1 ) ORDER BY `time` desc LIMIT 0,20   [ RunTime:0.000741s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_notice` WHERE ( id>=1 ) LIMIT 1   [ RunTime:0.000388s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\test\culture3.0\App\Home\Controller\IndexController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `tb_policy` [ RunTime:0.005783s ]
+SQL: SELECT * FROM `tb_policy` WHERE ( id>=1 ) ORDER BY `time` desc  [ RunTime:0.000436s ]
+SQL: SHOW COLUMNS FROM `tb_director` [ RunTime:0.005947s ]
+SQL: SELECT * FROM `tb_director` WHERE ( Did>=1 ) ORDER BY `Did` asc  [ RunTime:0.000383s ]
+SQL: SHOW COLUMNS FROM `tb_dynamic` [ RunTime:0.005510s ]
+SQL: SELECT * FROM `tb_dynamic` WHERE ( id>=1 ) ORDER BY `time` desc  [ RunTime:0.000387s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000131s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008050s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008108s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000193s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000235s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000474s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000530s ]
+
+[ 2020-02-06T10:44:18+08:00 ] ::1 /test/culture3.0/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000586s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000661s ]
+SQL: SHOW COLUMNS FROM `tb_picture` [ RunTime:0.015029s ]
+SQL: SELECT * FROM `tb_picture` WHERE `type` = 'slide'  [ RunTime:0.000933s ]
+SQL: SHOW COLUMNS FROM `tb_notice` [ RunTime:0.012046s ]
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\test\culture3.0\App\Home\Controller\IndexController.class.php 第 15 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\test\culture3.0\ThinkPHP\Library\Think\Db.class.php 第 786 行.
+SQL: SELECT * FROM `tb_notice` WHERE ( id>=1 ) ORDER BY `time` desc LIMIT 0,20   [ RunTime:0.000742s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_notice` WHERE ( id>=1 ) LIMIT 1   [ RunTime:0.000389s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\test\culture3.0\App\Home\Controller\IndexController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `tb_policy` [ RunTime:0.006334s ]
+SQL: SELECT * FROM `tb_policy` WHERE ( id>=1 ) ORDER BY `time` desc  [ RunTime:0.000429s ]
+SQL: SHOW COLUMNS FROM `tb_director` [ RunTime:0.006258s ]
+SQL: SELECT * FROM `tb_director` WHERE ( Did>=1 ) ORDER BY `Did` asc  [ RunTime:0.000377s ]
+SQL: SHOW COLUMNS FROM `tb_dynamic` [ RunTime:0.005222s ]
+SQL: SELECT * FROM `tb_dynamic` WHERE ( id>=1 ) ORDER BY `time` desc  [ RunTime:0.000397s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008290s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008350s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000193s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000235s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000485s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000541s ]
+
+[ 2020-02-06T10:45:31+08:00 ] ::1 /test/culture3.0/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000520s ]
+SQL: SHOW COLUMNS FROM `tb_picture` [ RunTime:0.005097s ]
+SQL: SELECT * FROM `tb_picture` WHERE `type` = 'slide'  [ RunTime:0.000318s ]
+SQL: SHOW COLUMNS FROM `tb_notice` [ RunTime:0.004607s ]
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\test\culture3.0\App\Home\Controller\IndexController.class.php 第 15 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\test\culture3.0\ThinkPHP\Library\Think\Db.class.php 第 786 行.
+SQL: SELECT * FROM `tb_notice` WHERE ( id>=1 ) ORDER BY `time` desc LIMIT 0,20   [ RunTime:0.000427s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_notice` WHERE ( id>=1 ) LIMIT 1   [ RunTime:0.000207s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\test\culture3.0\App\Home\Controller\IndexController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `tb_policy` [ RunTime:0.004484s ]
+SQL: SELECT * FROM `tb_policy` WHERE ( id>=1 ) ORDER BY `time` desc  [ RunTime:0.000406s ]
+SQL: SHOW COLUMNS FROM `tb_director` [ RunTime:0.005487s ]
+SQL: SELECT * FROM `tb_director` WHERE ( Did>=1 ) ORDER BY `Did` asc  [ RunTime:0.000404s ]
+SQL: SHOW COLUMNS FROM `tb_dynamic` [ RunTime:0.005803s ]
+SQL: SELECT * FROM `tb_dynamic` WHERE ( id>=1 ) ORDER BY `time` desc  [ RunTime:0.000372s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008344s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008409s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000273s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000544s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000602s ]
+
+[ 2020-02-06T10:45:48+08:00 ] ::1 /test/culture3.0/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000701s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000759s ]
+SQL: SHOW COLUMNS FROM `tb_picture` [ RunTime:0.014514s ]
+SQL: SELECT * FROM `tb_picture` WHERE `type` = 'slide'  [ RunTime:0.001014s ]
+SQL: SHOW COLUMNS FROM `tb_notice` [ RunTime:0.014784s ]
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\test\culture3.0\App\Home\Controller\IndexController.class.php 第 15 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\test\culture3.0\ThinkPHP\Library\Think\Db.class.php 第 786 行.
+SQL: SELECT * FROM `tb_notice` WHERE ( id>=1 ) ORDER BY `time` desc LIMIT 0,20   [ RunTime:0.001004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_notice` WHERE ( id>=1 ) LIMIT 1   [ RunTime:0.000498s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\test\culture3.0\App\Home\Controller\IndexController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `tb_policy` [ RunTime:0.006795s ]
+SQL: SELECT * FROM `tb_policy` WHERE ( id>=1 ) ORDER BY `time` desc  [ RunTime:0.000499s ]
+SQL: SHOW COLUMNS FROM `tb_director` [ RunTime:0.006088s ]
+SQL: SELECT * FROM `tb_director` WHERE ( Did>=1 ) ORDER BY `Did` asc  [ RunTime:0.000377s ]
+SQL: SHOW COLUMNS FROM `tb_dynamic` [ RunTime:0.005531s ]
+SQL: SELECT * FROM `tb_dynamic` WHERE ( id>=1 ) ORDER BY `time` desc  [ RunTime:0.000385s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000117s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007810s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007870s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000193s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000477s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000536s ]
+
+[ 2020-02-06T10:45:59+08:00 ] ::1 /test/culture3.0/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000428s ]
+SQL: SHOW COLUMNS FROM `tb_picture` [ RunTime:0.015108s ]
+SQL: SELECT * FROM `tb_picture` WHERE `type` = 'slide'  [ RunTime:0.000954s ]
+SQL: SHOW COLUMNS FROM `tb_notice` [ RunTime:0.010515s ]
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\test\culture3.0\App\Home\Controller\IndexController.class.php 第 15 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\test\culture3.0\ThinkPHP\Library\Think\Db.class.php 第 786 行.
+SQL: SELECT * FROM `tb_notice` WHERE ( id>=1 ) ORDER BY `time` desc LIMIT 0,20   [ RunTime:0.000770s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_notice` WHERE ( id>=1 ) LIMIT 1   [ RunTime:0.000392s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\test\culture3.0\App\Home\Controller\IndexController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `tb_policy` [ RunTime:0.005962s ]
+SQL: SELECT * FROM `tb_policy` WHERE ( id>=1 ) ORDER BY `time` desc  [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `tb_director` [ RunTime:0.006151s ]
+SQL: SELECT * FROM `tb_director` WHERE ( Did>=1 ) ORDER BY `Did` asc  [ RunTime:0.000491s ]
+SQL: SHOW COLUMNS FROM `tb_dynamic` [ RunTime:0.005633s ]
+SQL: SELECT * FROM `tb_dynamic` WHERE ( id>=1 ) ORDER BY `time` desc  [ RunTime:0.000385s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008904s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008964s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000196s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000481s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000540s ]
+
+[ 2020-02-06T10:47:35+08:00 ] ::1 /test/culture3.0/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000856s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000960s ]
+SQL: SHOW COLUMNS FROM `tb_picture` [ RunTime:0.010324s ]
+SQL: SELECT * FROM `tb_picture` WHERE `type` = 'slide'  [ RunTime:0.000454s ]
+SQL: SHOW COLUMNS FROM `tb_notice` [ RunTime:0.005087s ]
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\test\culture3.0\App\Home\Controller\IndexController.class.php 第 15 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\test\culture3.0\ThinkPHP\Library\Think\Db.class.php 第 786 行.
+SQL: SELECT * FROM `tb_notice` WHERE ( id>=1 ) ORDER BY `time` desc LIMIT 0,20   [ RunTime:0.000540s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_notice` WHERE ( id>=1 ) LIMIT 1   [ RunTime:0.000238s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\test\culture3.0\App\Home\Controller\IndexController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `tb_policy` [ RunTime:0.005144s ]
+SQL: SELECT * FROM `tb_policy` WHERE ( id>=1 ) ORDER BY `time` desc  [ RunTime:0.000465s ]
+SQL: SHOW COLUMNS FROM `tb_director` [ RunTime:0.056982s ]
+SQL: SELECT * FROM `tb_director` WHERE ( Did>=1 ) ORDER BY `Did` asc  [ RunTime:0.000390s ]
+SQL: SHOW COLUMNS FROM `tb_dynamic` [ RunTime:0.006014s ]
+SQL: SELECT * FROM `tb_dynamic` WHERE ( id>=1 ) ORDER BY `time` desc  [ RunTime:0.000432s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010163s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010238s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000278s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000560s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000618s ]
+
+[ 2020-02-06T10:47:40+08:00 ] ::1 /test/culture3.0/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000535s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000474s ]
+SQL: SHOW COLUMNS FROM `tb_picture` [ RunTime:0.015770s ]
+SQL: SELECT * FROM `tb_picture` WHERE `type` = 'slide'  [ RunTime:0.000540s ]
+SQL: SHOW COLUMNS FROM `tb_notice` [ RunTime:0.007436s ]
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\test\culture3.0\App\Home\Controller\IndexController.class.php 第 15 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\test\culture3.0\ThinkPHP\Library\Think\Db.class.php 第 786 行.
+SQL: SELECT * FROM `tb_notice` WHERE ( id>=1 ) ORDER BY `time` desc LIMIT 0,20   [ RunTime:0.000680s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_notice` WHERE ( id>=1 ) LIMIT 1   [ RunTime:0.000363s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\test\culture3.0\App\Home\Controller\IndexController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `tb_policy` [ RunTime:0.004952s ]
+SQL: SELECT * FROM `tb_policy` WHERE ( id>=1 ) ORDER BY `time` desc  [ RunTime:0.000391s ]
+SQL: SHOW COLUMNS FROM `tb_director` [ RunTime:0.005152s ]
+SQL: SELECT * FROM `tb_director` WHERE ( Did>=1 ) ORDER BY `Did` asc  [ RunTime:0.000355s ]
+SQL: SHOW COLUMNS FROM `tb_dynamic` [ RunTime:0.005187s ]
+SQL: SELECT * FROM `tb_dynamic` WHERE ( id>=1 ) ORDER BY `time` desc  [ RunTime:0.000627s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008015s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008078s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000195s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000237s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000477s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000537s ]
+
+[ 2020-02-06T10:47:54+08:00 ] ::1 /test/culture3.0/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000603s ]
+SQL: SHOW COLUMNS FROM `tb_picture` [ RunTime:0.004940s ]
+SQL: SELECT * FROM `tb_picture` WHERE `type` = 'slide'  [ RunTime:0.000325s ]
+SQL: SHOW COLUMNS FROM `tb_notice` [ RunTime:0.004776s ]
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\test\culture3.0\App\Home\Controller\IndexController.class.php 第 15 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\test\culture3.0\ThinkPHP\Library\Think\Db.class.php 第 786 行.
+SQL: SELECT * FROM `tb_notice` WHERE ( id>=1 ) ORDER BY `time` desc LIMIT 0,20   [ RunTime:0.000493s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_notice` WHERE ( id>=1 ) LIMIT 1   [ RunTime:0.000269s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\test\culture3.0\App\Home\Controller\IndexController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `tb_policy` [ RunTime:0.005058s ]
+SQL: SELECT * FROM `tb_policy` WHERE ( id>=1 ) ORDER BY `time` desc  [ RunTime:0.000433s ]
+SQL: SHOW COLUMNS FROM `tb_director` [ RunTime:0.005136s ]
+SQL: SELECT * FROM `tb_director` WHERE ( Did>=1 ) ORDER BY `Did` asc  [ RunTime:0.000456s ]
+SQL: SHOW COLUMNS FROM `tb_dynamic` [ RunTime:0.005267s ]
+SQL: SELECT * FROM `tb_dynamic` WHERE ( id>=1 ) ORDER BY `time` desc  [ RunTime:0.000391s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000200s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013869s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013940s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000374s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001056s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001143s ]
+
+[ 2020-02-06T10:49:15+08:00 ] ::1 /test/culture3.0/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009627s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010643s ]
+SQL: SHOW COLUMNS FROM `tb_picture` [ RunTime:0.311876s ]
+SQL: SELECT * FROM `tb_picture` WHERE `type` = 'slide'  [ RunTime:0.000726s ]
+SQL: SHOW COLUMNS FROM `tb_notice` [ RunTime:0.050167s ]
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\test\culture3.0\App\Home\Controller\IndexController.class.php 第 15 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\test\culture3.0\ThinkPHP\Library\Think\Db.class.php 第 786 行.
+SQL: SELECT * FROM `tb_notice` WHERE ( id>=1 ) ORDER BY `time` desc LIMIT 0,20   [ RunTime:0.000794s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_notice` WHERE ( id>=1 ) LIMIT 1   [ RunTime:0.000421s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\test\culture3.0\App\Home\Controller\IndexController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `tb_policy` [ RunTime:0.008786s ]
+SQL: SELECT * FROM `tb_policy` WHERE ( id>=1 ) ORDER BY `time` desc  [ RunTime:0.000758s ]
+SQL: SHOW COLUMNS FROM `tb_director` [ RunTime:0.046563s ]
+SQL: SELECT * FROM `tb_director` WHERE ( Did>=1 ) ORDER BY `Did` asc  [ RunTime:0.001065s ]
+SQL: SHOW COLUMNS FROM `tb_dynamic` [ RunTime:0.009526s ]
+SQL: SELECT * FROM `tb_dynamic` WHERE ( id>=1 ) ORDER BY `time` desc  [ RunTime:0.000822s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000206s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.124948s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.125053s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007730s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007807s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001131s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001240s ]
+
+[ 2020-02-06T10:49:36+08:00 ] ::1 /test/culture3.0/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000536s ]
+SQL: SHOW COLUMNS FROM `tb_picture` [ RunTime:0.016496s ]
+SQL: SELECT * FROM `tb_picture` WHERE `type` = 'slide'  [ RunTime:0.000699s ]
+SQL: SHOW COLUMNS FROM `tb_notice` [ RunTime:0.009358s ]
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\test\culture3.0\App\Home\Controller\IndexController.class.php 第 15 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\test\culture3.0\ThinkPHP\Library\Think\Db.class.php 第 786 行.
+SQL: SELECT * FROM `tb_notice` WHERE ( id>=1 ) ORDER BY `time` desc LIMIT 0,20   [ RunTime:0.000660s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_notice` WHERE ( id>=1 ) LIMIT 1   [ RunTime:0.000337s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\test\culture3.0\App\Home\Controller\IndexController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `tb_policy` [ RunTime:0.005208s ]
+SQL: SELECT * FROM `tb_policy` WHERE ( id>=1 ) ORDER BY `time` desc  [ RunTime:0.000405s ]
+SQL: SHOW COLUMNS FROM `tb_director` [ RunTime:0.006294s ]
+SQL: SELECT * FROM `tb_director` WHERE ( Did>=1 ) ORDER BY `Did` asc  [ RunTime:0.000353s ]
+SQL: SHOW COLUMNS FROM `tb_dynamic` [ RunTime:0.006381s ]
+SQL: SELECT * FROM `tb_dynamic` WHERE ( id>=1 ) ORDER BY `time` desc  [ RunTime:0.000385s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008843s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008906s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000614s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000676s ]
+
+[ 2020-02-06T15:28:55+08:00 ] ::1 /test/culture3.0/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010763s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010648s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010755s ]
+SQL: SHOW COLUMNS FROM `tb_picture` [ RunTime:0.064035s ]
+SQL: SELECT * FROM `tb_picture` WHERE `type` = 'slide'  [ RunTime:0.030614s ]
+SQL: SHOW COLUMNS FROM `tb_notice` [ RunTime:0.021428s ]
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\test\culture3.0\App\Home\Controller\IndexController.class.php 第 15 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\test\culture3.0\ThinkPHP\Library\Think\Db.class.php 第 786 行.
+SQL: SELECT * FROM `tb_notice` WHERE ( id>=1 ) ORDER BY `time` desc LIMIT 0,20   [ RunTime:0.015209s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_notice` WHERE ( id>=1 ) LIMIT 1   [ RunTime:0.000291s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\test\culture3.0\App\Home\Controller\IndexController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `tb_policy` [ RunTime:0.005651s ]
+SQL: SELECT * FROM `tb_policy` WHERE ( id>=1 ) ORDER BY `time` desc  [ RunTime:0.000897s ]
+SQL: SHOW COLUMNS FROM `tb_director` [ RunTime:0.018381s ]
+SQL: SELECT * FROM `tb_director` WHERE ( Did>=1 ) ORDER BY `Did` asc  [ RunTime:0.000459s ]
+SQL: SHOW COLUMNS FROM `tb_dynamic` [ RunTime:0.013996s ]
+SQL: SELECT * FROM `tb_dynamic` WHERE ( id>=1 ) ORDER BY `time` desc  [ RunTime:0.000796s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.066219s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066292s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007222s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007314s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001418s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001535s ]
+
+[ 2020-02-06T15:32:21+08:00 ] ::1 /test/culture3.0/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000529s ]
+SQL: SHOW COLUMNS FROM `tb_picture` [ RunTime:0.082403s ]
+SQL: SELECT * FROM `tb_picture` WHERE `type` = 'slide'  [ RunTime:0.000519s ]
+SQL: SHOW COLUMNS FROM `tb_notice` [ RunTime:0.007283s ]
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\test\culture3.0\App\Home\Controller\IndexController.class.php 第 15 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\test\culture3.0\ThinkPHP\Library\Think\Db.class.php 第 786 行.
+SQL: SELECT * FROM `tb_notice` WHERE ( id>=1 ) ORDER BY `time` desc LIMIT 0,20   [ RunTime:0.000537s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_notice` WHERE ( id>=1 ) LIMIT 1   [ RunTime:0.000275s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\test\culture3.0\App\Home\Controller\IndexController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `tb_policy` [ RunTime:0.004954s ]
+SQL: SELECT * FROM `tb_policy` WHERE ( id>=1 ) ORDER BY `time` desc  [ RunTime:0.000425s ]
+SQL: SHOW COLUMNS FROM `tb_director` [ RunTime:0.005302s ]
+SQL: SELECT * FROM `tb_director` WHERE ( Did>=1 ) ORDER BY `Did` asc  [ RunTime:0.000356s ]
+SQL: SHOW COLUMNS FROM `tb_dynamic` [ RunTime:0.005616s ]
+SQL: SELECT * FROM `tb_dynamic` WHERE ( id>=1 ) ORDER BY `time` desc  [ RunTime:0.000390s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008463s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008526s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000272s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000589s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000656s ]
+
+[ 2020-02-06T15:45:19+08:00 ] ::1 /test/culture3.0/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000570s ]
+SQL: SHOW COLUMNS FROM `tb_picture` [ RunTime:0.015291s ]
+SQL: SELECT * FROM `tb_picture` WHERE `type` = 'slide'  [ RunTime:0.001016s ]
+SQL: SHOW COLUMNS FROM `tb_notice` [ RunTime:0.012310s ]
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\test\culture3.0\App\Home\Controller\IndexController.class.php 第 15 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\test\culture3.0\ThinkPHP\Library\Think\Db.class.php 第 786 行.
+SQL: SELECT * FROM `tb_notice` WHERE ( id>=1 ) ORDER BY `time` desc LIMIT 0,20   [ RunTime:0.000780s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_notice` WHERE ( id>=1 ) LIMIT 1   [ RunTime:0.000413s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\test\culture3.0\App\Home\Controller\IndexController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `tb_policy` [ RunTime:0.006157s ]
+SQL: SELECT * FROM `tb_policy` WHERE ( id>=1 ) ORDER BY `time` desc  [ RunTime:0.000473s ]
+SQL: SHOW COLUMNS FROM `tb_director` [ RunTime:0.006168s ]
+SQL: SELECT * FROM `tb_director` WHERE ( Did>=1 ) ORDER BY `Did` asc  [ RunTime:0.000374s ]
+SQL: SHOW COLUMNS FROM `tb_dynamic` [ RunTime:0.005637s ]
+SQL: SELECT * FROM `tb_dynamic` WHERE ( id>=1 ) ORDER BY `time` desc  [ RunTime:0.000385s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009037s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009099s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000272s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000559s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000617s ]
+
+[ 2020-02-06T15:46:01+08:00 ] ::1 /test/culture3.0/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000516s ]
+SQL: SHOW COLUMNS FROM `tb_picture` [ RunTime:0.014665s ]
+SQL: SELECT * FROM `tb_picture` WHERE `type` = 'slide'  [ RunTime:0.000756s ]
+SQL: SHOW COLUMNS FROM `tb_notice` [ RunTime:0.009270s ]
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\test\culture3.0\App\Home\Controller\IndexController.class.php 第 15 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\test\culture3.0\ThinkPHP\Library\Think\Db.class.php 第 786 行.
+SQL: SELECT * FROM `tb_notice` WHERE ( id>=1 ) ORDER BY `time` desc LIMIT 0,20   [ RunTime:0.000600s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_notice` WHERE ( id>=1 ) LIMIT 1   [ RunTime:0.000305s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\test\culture3.0\App\Home\Controller\IndexController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `tb_policy` [ RunTime:0.005467s ]
+SQL: SELECT * FROM `tb_policy` WHERE ( id>=1 ) ORDER BY `time` desc  [ RunTime:0.000413s ]
+SQL: SHOW COLUMNS FROM `tb_director` [ RunTime:0.005820s ]
+SQL: SELECT * FROM `tb_director` WHERE ( Did>=1 ) ORDER BY `Did` asc  [ RunTime:0.000360s ]
+SQL: SHOW COLUMNS FROM `tb_dynamic` [ RunTime:0.005010s ]
+SQL: SELECT * FROM `tb_dynamic` WHERE ( id>=1 ) ORDER BY `time` desc  [ RunTime:0.000602s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008502s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008566s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000268s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000980s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001116s ]
+
+[ 2020-02-06T15:47:57+08:00 ] ::1 /test/culture3.0/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000516s ]
+SQL: SHOW COLUMNS FROM `tb_picture` [ RunTime:0.015780s ]
+SQL: SELECT * FROM `tb_picture` WHERE `type` = 'slide'  [ RunTime:0.001133s ]
+SQL: SHOW COLUMNS FROM `tb_notice` [ RunTime:0.014564s ]
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\test\culture3.0\App\Home\Controller\IndexController.class.php 第 15 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\test\culture3.0\ThinkPHP\Library\Think\Db.class.php 第 786 行.
+SQL: SELECT * FROM `tb_notice` WHERE ( id>=1 ) ORDER BY `time` desc LIMIT 0,20   [ RunTime:0.000946s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_notice` WHERE ( id>=1 ) LIMIT 1   [ RunTime:0.000521s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\test\culture3.0\App\Home\Controller\IndexController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `tb_policy` [ RunTime:0.007078s ]
+SQL: SELECT * FROM `tb_policy` WHERE ( id>=1 ) ORDER BY `time` desc  [ RunTime:0.000509s ]
+SQL: SHOW COLUMNS FROM `tb_director` [ RunTime:0.006526s ]
+SQL: SELECT * FROM `tb_director` WHERE ( Did>=1 ) ORDER BY `Did` asc  [ RunTime:0.000443s ]
+SQL: SHOW COLUMNS FROM `tb_dynamic` [ RunTime:0.006120s ]
+SQL: SELECT * FROM `tb_dynamic` WHERE ( id>=1 ) ORDER BY `time` desc  [ RunTime:0.000399s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008502s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008568s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000274s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000555s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000614s ]
+
+[ 2020-02-06T15:50:45+08:00 ] ::1 /test/culture3.0/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000517s ]
+SQL: SHOW COLUMNS FROM `tb_picture` [ RunTime:0.008053s ]
+SQL: SELECT * FROM `tb_picture` WHERE `type` = 'slide'  [ RunTime:0.000541s ]
+SQL: SHOW COLUMNS FROM `tb_notice` [ RunTime:0.008004s ]
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\test\culture3.0\App\Home\Controller\IndexController.class.php 第 15 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\test\culture3.0\ThinkPHP\Library\Think\Db.class.php 第 786 行.
+SQL: SELECT * FROM `tb_notice` WHERE ( id>=1 ) ORDER BY `time` desc LIMIT 0,20   [ RunTime:0.000752s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_notice` WHERE ( id>=1 ) LIMIT 1   [ RunTime:0.000399s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\test\culture3.0\App\Home\Controller\IndexController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `tb_policy` [ RunTime:0.007096s ]
+SQL: SELECT * FROM `tb_policy` WHERE ( id>=1 ) ORDER BY `time` desc  [ RunTime:0.000944s ]
+SQL: SHOW COLUMNS FROM `tb_director` [ RunTime:0.008501s ]
+SQL: SELECT * FROM `tb_director` WHERE ( Did>=1 ) ORDER BY `Did` asc  [ RunTime:0.000633s ]
+SQL: SHOW COLUMNS FROM `tb_dynamic` [ RunTime:0.011051s ]
+SQL: SELECT * FROM `tb_dynamic` WHERE ( id>=1 ) ORDER BY `time` desc  [ RunTime:0.000446s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000131s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009664s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009735s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000277s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000564s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000649s ]
+
+[ 2020-02-06T15:51:22+08:00 ] ::1 /test/culture3.0/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000518s ]
+SQL: SHOW COLUMNS FROM `tb_picture` [ RunTime:0.020280s ]
+SQL: SELECT * FROM `tb_picture` WHERE `type` = 'slide'  [ RunTime:0.000831s ]
+SQL: SHOW COLUMNS FROM `tb_notice` [ RunTime:0.009167s ]
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\test\culture3.0\App\Home\Controller\IndexController.class.php 第 15 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\test\culture3.0\ThinkPHP\Library\Think\Db.class.php 第 786 行.
+SQL: SELECT * FROM `tb_notice` WHERE ( id>=1 ) ORDER BY `time` desc LIMIT 0,20   [ RunTime:0.000611s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_notice` WHERE ( id>=1 ) LIMIT 1   [ RunTime:0.000372s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\test\culture3.0\App\Home\Controller\IndexController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `tb_policy` [ RunTime:0.005467s ]
+SQL: SELECT * FROM `tb_policy` WHERE ( id>=1 ) ORDER BY `time` desc  [ RunTime:0.000552s ]
+SQL: SHOW COLUMNS FROM `tb_director` [ RunTime:0.006247s ]
+SQL: SELECT * FROM `tb_director` WHERE ( Did>=1 ) ORDER BY `Did` asc  [ RunTime:0.000456s ]
+SQL: SHOW COLUMNS FROM `tb_dynamic` [ RunTime:0.005580s ]
+SQL: SELECT * FROM `tb_dynamic` WHERE ( id>=1 ) ORDER BY `time` desc  [ RunTime:0.000394s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008983s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009114s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000449s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000571s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000631s ]
+
+[ 2020-02-06T15:52:29+08:00 ] ::1 /test/culture3.0/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000430s ]
+SQL: SHOW COLUMNS FROM `tb_picture` [ RunTime:0.023643s ]
+SQL: SELECT * FROM `tb_picture` WHERE `type` = 'slide'  [ RunTime:0.000438s ]
+SQL: SHOW COLUMNS FROM `tb_notice` [ RunTime:0.006439s ]
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\test\culture3.0\App\Home\Controller\IndexController.class.php 第 15 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\test\culture3.0\ThinkPHP\Library\Think\Db.class.php 第 786 行.
+SQL: SELECT * FROM `tb_notice` WHERE ( id>=1 ) ORDER BY `time` desc LIMIT 0,20   [ RunTime:0.000494s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_notice` WHERE ( id>=1 ) LIMIT 1   [ RunTime:0.000238s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\test\culture3.0\App\Home\Controller\IndexController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `tb_policy` [ RunTime:0.031090s ]
+SQL: SELECT * FROM `tb_policy` WHERE ( id>=1 ) ORDER BY `time` desc  [ RunTime:0.000380s ]
+SQL: SHOW COLUMNS FROM `tb_director` [ RunTime:0.157066s ]
+SQL: SELECT * FROM `tb_director` WHERE ( Did>=1 ) ORDER BY `Did` asc  [ RunTime:0.000568s ]
+SQL: SHOW COLUMNS FROM `tb_dynamic` [ RunTime:0.006491s ]
+SQL: SELECT * FROM `tb_dynamic` WHERE ( id>=1 ) ORDER BY `time` desc  [ RunTime:0.000523s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010327s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010425s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000643s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000708s ]
+
+[ 2020-02-06T15:53:13+08:00 ] ::1 /test/culture3.0/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000514s ]
+SQL: SHOW COLUMNS FROM `tb_picture` [ RunTime:0.018471s ]
+SQL: SELECT * FROM `tb_picture` WHERE `type` = 'slide'  [ RunTime:0.000739s ]
+SQL: SHOW COLUMNS FROM `tb_notice` [ RunTime:0.010414s ]
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\test\culture3.0\App\Home\Controller\IndexController.class.php 第 15 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\test\culture3.0\ThinkPHP\Library\Think\Db.class.php 第 786 行.
+SQL: SELECT * FROM `tb_notice` WHERE ( id>=1 ) ORDER BY `time` desc LIMIT 0,20   [ RunTime:0.000747s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_notice` WHERE ( id>=1 ) LIMIT 1   [ RunTime:0.000392s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\test\culture3.0\App\Home\Controller\IndexController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `tb_policy` [ RunTime:0.005684s ]
+SQL: SELECT * FROM `tb_policy` WHERE ( id>=1 ) ORDER BY `time` desc  [ RunTime:0.000429s ]
+SQL: SHOW COLUMNS FROM `tb_director` [ RunTime:0.006200s ]
+SQL: SELECT * FROM `tb_director` WHERE ( Did>=1 ) ORDER BY `Did` asc  [ RunTime:0.000374s ]
+SQL: SHOW COLUMNS FROM `tb_dynamic` [ RunTime:0.005739s ]
+SQL: SELECT * FROM `tb_dynamic` WHERE ( id>=1 ) ORDER BY `time` desc  [ RunTime:0.000400s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008765s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008825s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000266s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000563s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000633s ]
+
+[ 2020-02-06T15:53:29+08:00 ] ::1 /test/culture3.0/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000530s ]
+SQL: SHOW COLUMNS FROM `tb_picture` [ RunTime:0.012801s ]
+SQL: SELECT * FROM `tb_picture` WHERE `type` = 'slide'  [ RunTime:0.000534s ]
+SQL: SHOW COLUMNS FROM `tb_notice` [ RunTime:0.007855s ]
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\test\culture3.0\App\Home\Controller\IndexController.class.php 第 15 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\test\culture3.0\ThinkPHP\Library\Think\Db.class.php 第 786 行.
+SQL: SELECT * FROM `tb_notice` WHERE ( id>=1 ) ORDER BY `time` desc LIMIT 0,20   [ RunTime:0.000532s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_notice` WHERE ( id>=1 ) LIMIT 1   [ RunTime:0.000266s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\test\culture3.0\App\Home\Controller\IndexController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `tb_policy` [ RunTime:0.005107s ]
+SQL: SELECT * FROM `tb_policy` WHERE ( id>=1 ) ORDER BY `time` desc  [ RunTime:0.000393s ]
+SQL: SHOW COLUMNS FROM `tb_director` [ RunTime:0.005658s ]
+SQL: SELECT * FROM `tb_director` WHERE ( Did>=1 ) ORDER BY `Did` asc  [ RunTime:0.000355s ]
+SQL: SHOW COLUMNS FROM `tb_dynamic` [ RunTime:0.005816s ]
+SQL: SELECT * FROM `tb_dynamic` WHERE ( id>=1 ) ORDER BY `time` desc  [ RunTime:0.000391s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008332s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008390s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000274s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000559s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000617s ]
+
+[ 2020-02-06T15:54:04+08:00 ] ::1 /test/culture3.0/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000776s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000855s ]
+SQL: SHOW COLUMNS FROM `tb_picture` [ RunTime:0.007189s ]
+SQL: SELECT * FROM `tb_picture` WHERE `type` = 'slide'  [ RunTime:0.000454s ]
+SQL: SHOW COLUMNS FROM `tb_notice` [ RunTime:0.006816s ]
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\test\culture3.0\App\Home\Controller\IndexController.class.php 第 15 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\test\culture3.0\ThinkPHP\Library\Think\Db.class.php 第 786 行.
+SQL: SELECT * FROM `tb_notice` WHERE ( id>=1 ) ORDER BY `time` desc LIMIT 0,20   [ RunTime:0.000524s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_notice` WHERE ( id>=1 ) LIMIT 1   [ RunTime:0.000281s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\test\culture3.0\App\Home\Controller\IndexController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `tb_policy` [ RunTime:0.005010s ]
+SQL: SELECT * FROM `tb_policy` WHERE ( id>=1 ) ORDER BY `time` desc  [ RunTime:0.000396s ]
+SQL: SHOW COLUMNS FROM `tb_director` [ RunTime:0.006039s ]
+SQL: SELECT * FROM `tb_director` WHERE ( Did>=1 ) ORDER BY `Did` asc  [ RunTime:0.000364s ]
+SQL: SHOW COLUMNS FROM `tb_dynamic` [ RunTime:0.005600s ]
+SQL: SELECT * FROM `tb_dynamic` WHERE ( id>=1 ) ORDER BY `time` desc  [ RunTime:0.000388s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010118s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010182s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000381s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000563s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000624s ]
+
+[ 2020-02-06T15:54:41+08:00 ] ::1 /test/culture3.0/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000417s ]
+SQL: SHOW COLUMNS FROM `tb_picture` [ RunTime:0.018905s ]
+SQL: SELECT * FROM `tb_picture` WHERE `type` = 'slide'  [ RunTime:0.000944s ]
+SQL: SHOW COLUMNS FROM `tb_notice` [ RunTime:0.013171s ]
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\test\culture3.0\App\Home\Controller\IndexController.class.php 第 15 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\test\culture3.0\ThinkPHP\Library\Think\Db.class.php 第 786 行.
+SQL: SELECT * FROM `tb_notice` WHERE ( id>=1 ) ORDER BY `time` desc LIMIT 0,20   [ RunTime:0.000770s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_notice` WHERE ( id>=1 ) LIMIT 1   [ RunTime:0.000390s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\test\culture3.0\App\Home\Controller\IndexController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `tb_policy` [ RunTime:0.006694s ]
+SQL: SELECT * FROM `tb_policy` WHERE ( id>=1 ) ORDER BY `time` desc  [ RunTime:0.000431s ]
+SQL: SHOW COLUMNS FROM `tb_director` [ RunTime:0.005849s ]
+SQL: SELECT * FROM `tb_director` WHERE ( Did>=1 ) ORDER BY `Did` asc  [ RunTime:0.000379s ]
+SQL: SHOW COLUMNS FROM `tb_dynamic` [ RunTime:0.005856s ]
+SQL: SELECT * FROM `tb_dynamic` WHERE ( id>=1 ) ORDER BY `time` desc  [ RunTime:0.000432s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008402s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008462s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000186s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000227s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000647s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000756s ]
+
+[ 2020-02-06T15:55:07+08:00 ] ::1 /test/culture3.0/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000416s ]
+SQL: SHOW COLUMNS FROM `tb_picture` [ RunTime:0.009275s ]
+SQL: SELECT * FROM `tb_picture` WHERE `type` = 'slide'  [ RunTime:0.000357s ]
+SQL: SHOW COLUMNS FROM `tb_notice` [ RunTime:0.005969s ]
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\test\culture3.0\App\Home\Controller\IndexController.class.php 第 15 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\test\culture3.0\ThinkPHP\Library\Think\Db.class.php 第 786 行.
+SQL: SELECT * FROM `tb_notice` WHERE ( id>=1 ) ORDER BY `time` desc LIMIT 0,20   [ RunTime:0.000444s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_notice` WHERE ( id>=1 ) LIMIT 1   [ RunTime:0.000241s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\test\culture3.0\App\Home\Controller\IndexController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `tb_policy` [ RunTime:0.004753s ]
+SQL: SELECT * FROM `tb_policy` WHERE ( id>=1 ) ORDER BY `time` desc  [ RunTime:0.000375s ]
+SQL: SHOW COLUMNS FROM `tb_director` [ RunTime:0.005368s ]
+SQL: SELECT * FROM `tb_director` WHERE ( Did>=1 ) ORDER BY `Did` asc  [ RunTime:0.000382s ]
+SQL: SHOW COLUMNS FROM `tb_dynamic` [ RunTime:0.005603s ]
+SQL: SELECT * FROM `tb_dynamic` WHERE ( id>=1 ) ORDER BY `time` desc  [ RunTime:0.000431s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009262s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009321s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000186s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000228s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000461s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000518s ]
+
+[ 2020-02-06T15:55:55+08:00 ] ::1 /test/culture3.0/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001124s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001221s ]
+SQL: SHOW COLUMNS FROM `tb_picture` [ RunTime:0.005633s ]
+SQL: SELECT * FROM `tb_picture` WHERE `type` = 'slide'  [ RunTime:0.000332s ]
+SQL: SHOW COLUMNS FROM `tb_notice` [ RunTime:0.005343s ]
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\test\culture3.0\App\Home\Controller\IndexController.class.php 第 15 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\test\culture3.0\ThinkPHP\Library\Think\Db.class.php 第 786 行.
+SQL: SELECT * FROM `tb_notice` WHERE ( id>=1 ) ORDER BY `time` desc LIMIT 0,20   [ RunTime:0.000439s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_notice` WHERE ( id>=1 ) LIMIT 1   [ RunTime:0.000231s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\test\culture3.0\App\Home\Controller\IndexController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `tb_policy` [ RunTime:0.004461s ]
+SQL: SELECT * FROM `tb_policy` WHERE ( id>=1 ) ORDER BY `time` desc  [ RunTime:0.000368s ]
+SQL: SHOW COLUMNS FROM `tb_director` [ RunTime:0.005827s ]
+SQL: SELECT * FROM `tb_director` WHERE ( Did>=1 ) ORDER BY `Did` asc  [ RunTime:0.000365s ]
+SQL: SHOW COLUMNS FROM `tb_dynamic` [ RunTime:0.005641s ]
+SQL: SELECT * FROM `tb_dynamic` WHERE ( id>=1 ) ORDER BY `time` desc  [ RunTime:0.000388s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009279s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009340s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000271s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000576s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000633s ]
+
+[ 2020-02-06T15:56:05+08:00 ] ::1 /test/culture3.0/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000515s ]
+SQL: SHOW COLUMNS FROM `tb_picture` [ RunTime:0.009189s ]
+SQL: SELECT * FROM `tb_picture` WHERE `type` = 'slide'  [ RunTime:0.000320s ]
+SQL: SHOW COLUMNS FROM `tb_notice` [ RunTime:0.005059s ]
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\test\culture3.0\App\Home\Controller\IndexController.class.php 第 15 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\test\culture3.0\ThinkPHP\Library\Think\Db.class.php 第 786 行.
+SQL: SELECT * FROM `tb_notice` WHERE ( id>=1 ) ORDER BY `time` desc LIMIT 0,20   [ RunTime:0.000389s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_notice` WHERE ( id>=1 ) LIMIT 1   [ RunTime:0.000188s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\test\culture3.0\App\Home\Controller\IndexController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `tb_policy` [ RunTime:0.004424s ]
+SQL: SELECT * FROM `tb_policy` WHERE ( id>=1 ) ORDER BY `time` desc  [ RunTime:0.000432s ]
+SQL: SHOW COLUMNS FROM `tb_director` [ RunTime:0.005476s ]
+SQL: SELECT * FROM `tb_director` WHERE ( Did>=1 ) ORDER BY `Did` asc  [ RunTime:0.000503s ]
+SQL: SHOW COLUMNS FROM `tb_dynamic` [ RunTime:0.005455s ]
+SQL: SELECT * FROM `tb_dynamic` WHERE ( id>=1 ) ORDER BY `time` desc  [ RunTime:0.000381s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008499s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008591s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000279s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000573s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000641s ]
+
+[ 2020-02-06T15:56:33+08:00 ] ::1 /test/culture3.0/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000620s ]
+SQL: SHOW COLUMNS FROM `tb_picture` [ RunTime:0.009445s ]
+SQL: SELECT * FROM `tb_picture` WHERE `type` = 'slide'  [ RunTime:0.000650s ]
+SQL: SHOW COLUMNS FROM `tb_notice` [ RunTime:0.009582s ]
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\test\culture3.0\App\Home\Controller\IndexController.class.php 第 15 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\test\culture3.0\ThinkPHP\Library\Think\Db.class.php 第 786 行.
+SQL: SELECT * FROM `tb_notice` WHERE ( id>=1 ) ORDER BY `time` desc LIMIT 0,20   [ RunTime:0.000890s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_notice` WHERE ( id>=1 ) LIMIT 1   [ RunTime:0.000378s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\test\culture3.0\App\Home\Controller\IndexController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `tb_policy` [ RunTime:0.006298s ]
+SQL: SELECT * FROM `tb_policy` WHERE ( id>=1 ) ORDER BY `time` desc  [ RunTime:0.000479s ]
+SQL: SHOW COLUMNS FROM `tb_director` [ RunTime:0.006230s ]
+SQL: SELECT * FROM `tb_director` WHERE ( Did>=1 ) ORDER BY `Did` asc  [ RunTime:0.000381s ]
+SQL: SHOW COLUMNS FROM `tb_dynamic` [ RunTime:0.004593s ]
+SQL: SELECT * FROM `tb_dynamic` WHERE ( id>=1 ) ORDER BY `time` desc  [ RunTime:0.000380s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007887s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007944s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000188s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000229s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000532s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000604s ]
+
+[ 2020-02-06T15:57:58+08:00 ] ::1 /test/culture3.0/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000415s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000539s ]
+SQL: SHOW COLUMNS FROM `tb_picture` [ RunTime:0.019405s ]
+SQL: SELECT * FROM `tb_picture` WHERE `type` = 'slide'  [ RunTime:0.000942s ]
+SQL: SHOW COLUMNS FROM `tb_notice` [ RunTime:0.009270s ]
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\test\culture3.0\App\Home\Controller\IndexController.class.php 第 15 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\test\culture3.0\ThinkPHP\Library\Think\Db.class.php 第 786 行.
+SQL: SELECT * FROM `tb_notice` WHERE ( id>=1 ) ORDER BY `time` desc LIMIT 0,20   [ RunTime:0.000602s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_notice` WHERE ( id>=1 ) LIMIT 1   [ RunTime:0.000308s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\test\culture3.0\App\Home\Controller\IndexController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `tb_policy` [ RunTime:0.005528s ]
+SQL: SELECT * FROM `tb_policy` WHERE ( id>=1 ) ORDER BY `time` desc  [ RunTime:0.000434s ]
+SQL: SHOW COLUMNS FROM `tb_director` [ RunTime:0.005748s ]
+SQL: SELECT * FROM `tb_director` WHERE ( Did>=1 ) ORDER BY `Did` asc  [ RunTime:0.000388s ]
+SQL: SHOW COLUMNS FROM `tb_dynamic` [ RunTime:0.005588s ]
+SQL: SELECT * FROM `tb_dynamic` WHERE ( id>=1 ) ORDER BY `time` desc  [ RunTime:0.000395s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008339s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008398s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000188s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000229s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000471s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000530s ]
+
+[ 2020-02-06T15:58:37+08:00 ] ::1 /test/culture3.0/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000514s ]
+SQL: SHOW COLUMNS FROM `tb_picture` [ RunTime:0.018561s ]
+SQL: SELECT * FROM `tb_picture` WHERE `type` = 'slide'  [ RunTime:0.000997s ]
+SQL: SHOW COLUMNS FROM `tb_notice` [ RunTime:0.014694s ]
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\test\culture3.0\App\Home\Controller\IndexController.class.php 第 15 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\test\culture3.0\ThinkPHP\Library\Think\Db.class.php 第 786 行.
+SQL: SELECT * FROM `tb_notice` WHERE ( id>=1 ) ORDER BY `time` desc LIMIT 0,20   [ RunTime:0.000957s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_notice` WHERE ( id>=1 ) LIMIT 1   [ RunTime:0.000486s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\test\culture3.0\App\Home\Controller\IndexController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `tb_policy` [ RunTime:0.006831s ]
+SQL: SELECT * FROM `tb_policy` WHERE ( id>=1 ) ORDER BY `time` desc  [ RunTime:0.000498s ]
+SQL: SHOW COLUMNS FROM `tb_director` [ RunTime:0.006510s ]
+SQL: SELECT * FROM `tb_director` WHERE ( Did>=1 ) ORDER BY `Did` asc  [ RunTime:0.000375s ]
+SQL: SHOW COLUMNS FROM `tb_dynamic` [ RunTime:0.005661s ]
+SQL: SELECT * FROM `tb_dynamic` WHERE ( id>=1 ) ORDER BY `time` desc  [ RunTime:0.000391s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008368s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008429s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000555s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000612s ]
+
+[ 2020-02-06T16:06:04+08:00 ] ::1 /test/culture3.0/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000518s ]
+SQL: SHOW COLUMNS FROM `tb_picture` [ RunTime:0.073838s ]
+SQL: SELECT * FROM `tb_picture` WHERE `type` = 'slide'  [ RunTime:0.000633s ]
+SQL: SHOW COLUMNS FROM `tb_notice` [ RunTime:0.009827s ]
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\test\culture3.0\App\Home\Controller\IndexController.class.php 第 15 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\test\culture3.0\ThinkPHP\Library\Think\Db.class.php 第 786 行.
+SQL: SELECT * FROM `tb_notice` WHERE ( id>=1 ) ORDER BY `time` desc LIMIT 0,20   [ RunTime:0.000987s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_notice` WHERE ( id>=1 ) LIMIT 1   [ RunTime:0.000651s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\test\culture3.0\App\Home\Controller\IndexController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `tb_policy` [ RunTime:0.006700s ]
+SQL: SELECT * FROM `tb_policy` WHERE ( id>=1 ) ORDER BY `time` desc  [ RunTime:0.000478s ]
+SQL: SHOW COLUMNS FROM `tb_director` [ RunTime:0.006508s ]
+SQL: SELECT * FROM `tb_director` WHERE ( Did>=1 ) ORDER BY `Did` asc  [ RunTime:0.000408s ]
+SQL: SHOW COLUMNS FROM `tb_dynamic` [ RunTime:0.005363s ]
+SQL: SELECT * FROM `tb_dynamic` WHERE ( id>=1 ) ORDER BY `time` desc  [ RunTime:0.000389s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008507s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008570s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000268s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000613s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000702s ]
+

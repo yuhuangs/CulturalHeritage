@@ -1,0 +1,22 @@
+body{margin:0;padding:0}
+body{background:#F2F2F2;color:#666;font-size:16px;}
+h1{font-size:24px;}
+.clear{clear:both;}
+.center{text-align:center;}
+.left{float:left;}
+.right{float:right;}
+#box{width:500px;margin:0 auto;margin-top:30px;}
+#main{margin:30px auto;border:3px solid #E8E8E8;background:#fff;padding:40px;}
+.login-ad{width:320px;height:250px;background:url(../image/ad01.jpg);}
+.register-ad{width:320px;height:250px;background:url(../image/ad01.jpg);}
+.login{width:350px;}
+th{text-align:right;}
+input{width:250px;height:18px;padding:5px;border:1px solid #ddd;}
+tr{height:40px;}
+th{font-weight:normal;}
+img{cursor:pointer;}
+a{color:#EE4C4F;font-size:14px;text-decoration: none;margin-left:20px;}
+a:hover{text-decoration:underline;}
+.button{width:250px;height:30px;background:#EE4C4F;border:1px solid #E37A7D;color:#fff;}
+.button{*border:none;}
+.error{border:1px solid #E37A7D;}

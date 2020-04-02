@@ -1,0 +1,36 @@
+<link href="__PUBLIC__/Home/css/policy&info.css" rel="stylesheet">
+<div id="policy-main" class="container">
+    <div id="policy-title"><h2 id="pl">动态</h2></div>
+    <br>
+    <br>
+    <hr>
+    <table id="policy-table" class="table table-striped">
+        <thead>
+        <tr>
+            <th width="70%"><h3>动态名</h3></th>
+            <th><h3>发生时间</h3></th>
+        </tr>
+        </thead>
+        <tbody>
+        <foreach name="dynamic" item="dyna">
+            <tr>
+                <td>
+                    <form action="{:U('Information/dynacontent')}" method="post">
+                        <input type="hidden" name="dynaId" value="{$dyna.id}">
+                        <button type="submit" class="policy-title">
+                            {$dyna.title}
+                        </button>
+                    </form>
+                </td>
+                <td>{$dyna.time}</td>
+            </tr>
+        </foreach>
+        </tbody>
+    </table>
+    <div id="policy-page">
+        <div class="page-list pages" id="page">
+            {$page}
+        </div>
+    </div>
+</div>
+

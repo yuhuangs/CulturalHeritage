@@ -1,0 +1,26 @@
+<meta charset="UTF-8">
+<title>区县名录</title>
+<link href="__PUBLIC__/Home/css/director.css" rel="stylesheet">
+<div class="container">
+    <br>
+    <div class="row">
+        <div class="col-lg-12">
+            <h2 class="page-header">区县名录/{$cName}</h2>
+        </div>
+    </div>
+    <section class="countryList">
+        <div class="row list-box">
+            <foreach name="countryList" item="cl">
+                <div class="col-xs-12 col-sm-5 col-md-5  col-lg-4 list-pic">
+                    <img class="intro-pic" src="__PUBLIC__/Home/image/minglu/{$cl.number}.jpg">
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 list-intro">
+                    <div class="intro-box">
+                        <h3 class="page-header">{$cl.name} | 简介</h3>
+                        <p>&nbsp;&nbsp;&nbsp;{$cl.introduce|msubstr=###,0,400,'utf-8'}</p>
+                    </div>
+                </div>
+            </foreach>
+        </div>
+    </section>
+</div>

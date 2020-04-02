@@ -1,0 +1,37 @@
+<link href="__PUBLIC__/Home/css/policy&info.css" rel="stylesheet">
+<div id="policy-main" class="container">
+    <div id="policy-title"><h2 id="pl">公告</h2></div>
+    <br>
+    <br>
+    <hr>
+    <table id="policy-table" class="table table-striped">
+        <thead>
+        <tr>
+            <th width="70%"><h3>公告名称</h3></th>
+            <th><h3>发布时间</h3></th>
+        </tr>
+        </thead>
+        <tbody>
+        <foreach name="notice" item="noti">
+                <tr>
+                    <td>
+                        <form action="{:U('Information/noticontent')}" method="post">
+                            <input type="hidden" name="noticeId" value="{$noti.id}">
+                            <input type="hidden" name="contentType" value="notice">
+                            <button type="submit" class="policy-title">
+                                {$noti.title}
+                            </button>
+                        </form>
+                    </td>
+                    <td>{$noti.time}</td>
+                </tr>
+        </foreach>
+        </tbody>
+    </table>
+    <div id="policy-page">
+        <div class="page-list pages" id="page">
+            {$page}
+        </div>
+    </div>
+</div>
+

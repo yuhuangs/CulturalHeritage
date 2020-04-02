@@ -1,0 +1,81 @@
+body,ul,input,p,dl,dt,dd,h1{margin:0;padding:0;}
+ul{list-style:none;}
+img{border:0;}/* IE Fix */
+a{text-decoration:none;}
+a:hover{text-decoration:underline;}
+.left{float:left;}
+.right{float:right;}
+.center{text-align:center;}
+.clear{clear:both;}
+body{min-width:755px;color:#666;font-size:14px;}
+#top{height:50px;line-height:30px;background:#F7F7F7;border-bottom:1px solid #eee;font-size:12px;color:#666;}
+#top ul{margin:0 20px;}
+#top a{color:#666;}
+#top a:hover{color:#e4393c;}
+#top li{float:left;margin-right:10px;}
+#top .line{color:#ccc;}
+#top .top_nav{max-width:1220px;margin:0 auto;}
+#box{width:1220px;margin:0 auto;padding-top:20px;}
+#header a{width:250px;display:block;}
+#header #logo{background:url(../image/logo.png);width:250px;height:60px;}
+#header #search{width:500px;margin-top:15px;}
+#header #search input{width:416px;height:30px;border:3px solid #E4393C;}
+#header #search input{_width:390px;}/* IE Fix */
+#header #search .search_btn{_position:relative;_left:-3px;}/* IE Fix */
+#header #search a{display:block;}
+#header #search .search_btn{width:78px;height:36px;background: #E4393C;font-size:14px;font-weight:700;color:#fff;cursor:pointer;}
+#header #search #search_hot{color: #999;font-size:12px;margin-top:5px;}
+#header #info{margin-top:18px;margin-left:20px;}
+#header #info input{height:32px;border:1px solid #E3E3E3;background-color: #F7F7F7;color:#666;padding:0 10px;margin-right:12px;}
+#header #info input{*padding:0;*line-height:29px;}/* IE Fix */
+#nav ul{width:100%;height:40px;background: #E4393C;}
+#nav li{float:left;width:58px;padding-left:25px;}
+#nav{margin-top:12px;}
+#nav a{color:#fff;font: 700 15px/40px "microsoft yahei";}
+#nav a:hover{text-decoration:none;}
+#nav .curr{background: #A40000;}
+#nav .category{width:185px;}
+/*首页*/
+#slide{width:207px;border:solid #E4393C;border-width:0 2px 2px;background: #FAFAFA;padding:6px 0;position:absolute;}
+#slide{*left:0;}/* IE Fix */
+#slide{_top:152px;}/* IE Fix */
+#box{*position:relative;}/* IE Fix */
+
+#footer{
+    height: 200px;
+    position: -ms-device-fixed;
+    font-size: 14px;
+    text-align: center;
+}
+
+.footer-main {
+    background: #afd9ee;
+    color: #ffffff;
+    border-top: 6px solid #f0f0f0;
+    min-height: 100px;
+    padding: 30px 0;
+    z-index: 100;
+}
+
+#content{
+    background: #e2e6ea;
+    color: #9a9afb;
+    min-height: 600px;
+    z-index: 100;
+}
+
+#carousel{
+    min-height: 600px;
+    border-color: #f7e1b5;
+    border-bottom-right-radius: 6px;
+}
+#message{
+    min-height: 600px;
+
+}
+#gonggao{
+    min-height: 200px;
+}
+#pinglun{
+    min-height: 300px;
+}

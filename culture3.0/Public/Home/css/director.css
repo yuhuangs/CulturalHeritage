@@ -1,0 +1,209 @@
+.row {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+}
+.row > [class*='col-'] {
+    display: flex;
+    flex-direction: column;
+}
+.list-box{
+    margin-top: 8px;
+}
+
+.list-pic{
+    height: 350px;
+    margin-top: 30px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.intro-pic{
+    width: auto;
+    margin-right: 10px;
+    height: 100%;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+.list-intro{
+    height: 350px;
+    background-image: url("../image/border.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin-top: 30px;
+    padding-top: 0;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.intro-box{
+    width: auto;
+    height: 290px;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    background-color: #ffffff;
+    font-family: 微软雅黑;
+}
+
+.page-header{
+    padding-top: 0px;
+    margin-top: 10px;
+}
+
+/*名录主界面*/
+#directorBox{
+    margin-top: 30px;
+    height: 1000px;
+}
+
+#dir-left,#dir-right{
+    height: 1000px;
+}
+
+.dir-type1,.dir-type2{
+    width: 100%;
+    height:200px;
+    border:solid 2px;
+    border-color: white;
+}
+
+.dir-type1{
+    background-color: #ff9222;
+}
+
+.dir-type2{
+    background-color: #ff4633;
+}
+
+.dir-type1-inside1{
+    width: 50%;
+    height: 0;
+    background-color: #e8ff6f;
+    float: left;
+    transition: height 1.5s;
+    -moz-transition: height 1.5s;	/* Firefox 4 */
+    -webkit-transition: height 1.5s;	/* Safari 和 Chrome */
+    -o-transition: height 1.5s;	/* Opera */
+}
+
+.dir-type1-inside2{
+    width: 0;
+    height: 100%;
+    background-color: #8cf7ff;
+    float: right;
+    transition: width 1.5s;
+    -moz-transition: width 1.5s;	/* Firefox 4 */
+    -webkit-transition: width 1.5s;	/* Safari 和 Chrome */
+    -o-transition: width 1.5s;	/* Opera */
+}
+
+.dir-type1:hover .dir-type1-inside1,.dir-type1:hover .dir-type1-inside2{
+    height:100%;
+    width: 50%;
+}
+
+
+.dir-type2-inside1{
+    width: 50%;
+    height: 0;
+    background-color: #ffc566;
+    float: right;
+    transition: height 1.5s;
+    -moz-transition: height 1.5s;	/* Firefox 4 */
+    -webkit-transition: height 1.5s;	/* Safari 和 Chrome */
+    -o-transition: height 1.5s;	/* Opera */
+}
+
+.dir-type2-inside2{
+    width: 0;
+    height: 100%;
+    background-color: #ffcfff;
+    float: left;
+    transition: width 1.5s;
+    -moz-transition: width 1.5s;	/* Firefox 4 */
+    -webkit-transition: width 1.5s;	/* Safari 和 Chrome */
+    -o-transition: width 1.5s;	/* Opera */
+}
+
+.dir-type2:hover .dir-type2-inside1,.dir-type2:hover .dir-type2-inside2{
+    height:100%;
+    width: 50%;
+}
+
+.type-name-box{
+    position: relative;
+    top: 50px;
+    left: 10%;
+    width: 80%;
+    height: 100px;
+    opacity: 0;
+    transition: opacity 1.5s;
+}
+
+.dir-type2:hover .type-name-box,.dir-type1:hover .type-name-box{
+    opacity: 1;
+}
+
+/*type-bg*/
+#wenxue{
+    background-image: url("../image/directorType/wenxue.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+#yinyue{
+    background-image: url("../image/directorType/yinyue.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#wudao{
+    background-image: url("../image/directorType/wudao.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#xiju{
+    background-image: url("../image/directorType/xiju.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#quyi{
+    background-image: url("../image/directorType/quyi.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#jingji{
+    background-image: url("../image/directorType/jingji.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#meishu{
+    background-image: url("../image/directorType/meishu.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#shougong{
+    background-image: url("../image/directorType/shougong.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#yiyao{
+    background-image: url("../image/directorType/yiyao.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#minsu{
+    background-image: url("../image/directorType/minsu.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}

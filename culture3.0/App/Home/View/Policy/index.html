@@ -1,0 +1,47 @@
+<link href="__PUBLIC__/Home/css/policy&info.css" rel="stylesheet">
+<div id="policy-main" class="container">
+    <div id="policy-title"><h2 id="pl">政策</h2></div>
+    <br>
+    <div id="choose">
+        <div class="choose" id="choose1">
+            <h3><a href="{:U('Policy/index?id=1')}">国内法规文件</a></h3>
+        </div>
+        <div class="choose" id="choose2">
+            <h3><a href="{:U('Policy/index?id=2')}">联合国教科文组织文件</a></h3>
+        </div>
+        <div class="choose" id="choose3">
+            <h3><a href="{:U('Policy/index?id=3')}">重要讲话</a></h3>
+        </div>
+    </div>
+    <br>
+    <hr>
+    <table id="policy-table" class="table table-striped">
+        <thead>
+        <tr>
+            <th width="70%"><h3>文件名称</h3></th>
+            <th><h3>发布时间</h3></th>
+        </tr>
+        </thead>
+        <tbody>
+        <foreach name="policy" item="py">
+                <tr>
+                    <td>
+                        <form action="{:U('Policy/content')}" method="post">
+                            <input type="hidden" name="policyId" value="{$py.id}">
+                            <button type="submit" class="policy-title">
+                                {$py.title}
+                            </button>
+                        </form>
+                    </td>
+                    <td>{$py.time}</td>
+                </tr>
+        </foreach>
+        </tbody>
+    </table>
+    <div id="policy-page">
+        <div class="page-list pages" id="page">
+            {$page}
+        </div>
+    </div>
+</div>
+

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>传承人</title>
+</head>
+<body>
+<div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
+    <ul class="list-group">
+        <a href="__CONTROLLER__/index" class="list-group-item active">查看传承人</a>
+        <a href="__CONTROLLER__/add" class="list-group-item">添加传承人</a>
+        <a href="__CONTROLLER__/index" class="list-group-item">修改传承人</a>
+        <a href="__CONTROLLER__/search" class="list-group-item">查询传承人</a>
+        <a href="__CONTROLLER__/index" class="list-group-item">删除传承人</a>
+    </ul>
+</div>
+<!--右侧主要内容-->
+<div class="col-xs-12 col-sm-10 col-md-10 col-lg-10">
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h1>传承人管理</h1>
+        </div>
+        <div class="panel-body">
+            <table class="table table-hover">
+                <tbody>
+                <tr class="bg-primary">
+                    <th scope="row"></th>
+                    <th><input type="checkbox">全选</th>
+                    <th>姓名</th>
+                    <th>性别</th>
+                    <th>称号</th>
+                    <th>年龄</th>
+                    <th>封号时间</th>
+                    <th>事迹</th>
+                    <th>操作</th>
+                </tr>
+                <foreach name="res" item="v">
+                    <tr class="bg-success">
+                        <th scope="row"></th>
+                        <td><input type="checkbox"></td>
+                        <td>{$v.name}</td>
+                        <td>{$v.sex}</td>
+                        <td>{$v.qname}</td>
+                        <td>{$v.age}</td>
+                        <td>{$v.inputtime}</td>
+                        <td>{$v.shiji|msubstr=0,40}</td>
+                        <td>
+                            <a type="button" class="btn btn-primary btn-sm" href="__CONTROLLER__/revise/id/{$v.id}">
+                                <span class="glyphicon glyphicon-pencil"></span>编辑 </a>
+                            <a type="button" class="btn btn-danger btn-sm" href="__CONTROLLER__/delete/id/{$v.id}">
+                                <span class="glyphicon glyphicon-trash"></span>删除</a>
+                        </td>
+                    </tr>
+                </foreach>
+                </tbody>
+            </table>
+            <div class="pagelist" align="right">
+                <?php echo $page; ?>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

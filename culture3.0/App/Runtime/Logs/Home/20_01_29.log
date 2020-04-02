@@ -1,0 +1,104 @@
+[ 2020-01-29T16:15:15+08:00 ] ::1 /test/culture3.0/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.074531s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.027687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.027786s ]
+SQL: SHOW COLUMNS FROM `tb_picture` [ RunTime:0.247908s ]
+SQL: SELECT * FROM `tb_picture` WHERE `type` = 'slide'  [ RunTime:0.028467s ]
+SQL: SHOW COLUMNS FROM `tb_notice` [ RunTime:0.155742s ]
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\test\culture3.0\App\Home\Controller\IndexController.class.php 第 15 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\test\culture3.0\ThinkPHP\Library\Think\Db.class.php 第 786 行.
+SQL: SELECT * FROM `tb_notice` WHERE ( id>=1 ) ORDER BY `time` desc LIMIT 0,20   [ RunTime:0.037631s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_notice` WHERE ( id>=1 ) LIMIT 1   [ RunTime:0.008161s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\test\culture3.0\App\Home\Controller\IndexController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `tb_policy` [ RunTime:0.029485s ]
+SQL: SELECT * FROM `tb_policy` WHERE ( id>=1 ) ORDER BY `time` desc  [ RunTime:0.000489s ]
+SQL: SHOW COLUMNS FROM `tb_director` [ RunTime:0.126094s ]
+SQL: SELECT * FROM `tb_director` WHERE ( Did>=1 ) ORDER BY `Did` desc  [ RunTime:0.000661s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.747352s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.747520s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.068853s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.068931s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.184372s ]
+INFO: [ app_end ] --END-- [ RunTime:0.184473s ]
+
+[ 2020-01-29T16:25:33+08:00 ] ::1 /test/culture3.0/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000414s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000598s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000669s ]
+SQL: SHOW COLUMNS FROM `tb_picture` [ RunTime:0.034379s ]
+SQL: SELECT * FROM `tb_picture` WHERE `type` = 'slide'  [ RunTime:0.000451s ]
+SQL: SHOW COLUMNS FROM `tb_notice` [ RunTime:0.012807s ]
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\test\culture3.0\App\Home\Controller\IndexController.class.php 第 15 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\test\culture3.0\ThinkPHP\Library\Think\Db.class.php 第 786 行.
+SQL: SELECT * FROM `tb_notice` WHERE ( id>=1 ) ORDER BY `time` desc LIMIT 0,20   [ RunTime:0.000468s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_notice` WHERE ( id>=1 ) LIMIT 1   [ RunTime:0.000240s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\test\culture3.0\App\Home\Controller\IndexController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `tb_policy` [ RunTime:0.011673s ]
+SQL: SELECT * FROM `tb_policy` WHERE ( id>=1 ) ORDER BY `time` desc  [ RunTime:0.000389s ]
+SQL: SHOW COLUMNS FROM `tb_director` [ RunTime:0.011952s ]
+SQL: SELECT * FROM `tb_director` WHERE ( Did>=1 ) ORDER BY `Did` desc  [ RunTime:0.000417s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008782s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008860s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000355s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000716s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000776s ]
+
+[ 2020-01-29T16:46:09+08:00 ] ::1 /test/culture3.0/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009641s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010177s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010247s ]
+SQL: SHOW COLUMNS FROM `tb_picture` [ RunTime:0.050738s ]
+SQL: SELECT * FROM `tb_picture` WHERE `type` = 'slide'  [ RunTime:0.000622s ]
+SQL: SHOW COLUMNS FROM `tb_notice` [ RunTime:0.015142s ]
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\test\culture3.0\App\Home\Controller\IndexController.class.php 第 15 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\test\culture3.0\ThinkPHP\Library\Think\Db.class.php 第 786 行.
+SQL: SELECT * FROM `tb_notice` WHERE ( id>=1 ) ORDER BY `time` desc LIMIT 0,20   [ RunTime:0.000630s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_notice` WHERE ( id>=1 ) LIMIT 1   [ RunTime:0.000279s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\test\culture3.0\App\Home\Controller\IndexController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `tb_policy` [ RunTime:0.011047s ]
+SQL: SELECT * FROM `tb_policy` WHERE ( id>=1 ) ORDER BY `time` desc  [ RunTime:0.000417s ]
+SQL: SHOW COLUMNS FROM `tb_director` [ RunTime:0.041183s ]
+SQL: SELECT * FROM `tb_director` WHERE ( Did>=1 ) ORDER BY `Did` desc  [ RunTime:0.000456s ]
+NOTIC: [8] Undefined offset: 2 D:\phpStudy\WWW\test\culture3.0\App\Home\Controller\IndexController.class.php 第 47 行.
+NOTIC: [8] Undefined offset: 2 D:\phpStudy\WWW\test\culture3.0\App\Home\Controller\IndexController.class.php 第 47 行.
+NOTIC: [8] Undefined offset: 2 D:\phpStudy\WWW\test\culture3.0\App\Home\Controller\IndexController.class.php 第 47 行.
+NOTIC: [8] Undefined offset: 2 D:\phpStudy\WWW\test\culture3.0\App\Home\Controller\IndexController.class.php 第 47 行.
+NOTIC: [8] Undefined offset: 2 D:\phpStudy\WWW\test\culture3.0\App\Home\Controller\IndexController.class.php 第 47 行.
+NOTIC: [8] Undefined offset: 2 D:\phpStudy\WWW\test\culture3.0\App\Home\Controller\IndexController.class.php 第 47 行.
+NOTIC: [8] Undefined offset: 2 D:\phpStudy\WWW\test\culture3.0\App\Home\Controller\IndexController.class.php 第 47 行.
+NOTIC: [8] Undefined offset: 2 D:\phpStudy\WWW\test\culture3.0\App\Home\Controller\IndexController.class.php 第 47 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000212s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.235636s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.235750s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.014764s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014877s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001831s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002028s ]
+

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
+    <ul class="list-group">
+        <a href="__CONTROLLER__/index" class="list-group-item">查看商品</a>
+        <a href="__CONTROLLER__/add" class="list-group-item ">添加商品</a>
+        <a href="__CONTROLLER__/index" class="list-group-item ">修改商品</a>
+        <a href="__CONTROLLER__/search" class="list-group-item active">查询商品</a>
+        <a href="__CONTROLLER__/index" class="list-group-item">删除商品</a>
+    </ul>
+</div>
+<!--右侧主要内容-->
+<div class="col-xs-12 col-sm-10 col-md-10 col-lg-10">
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h1>商品管理</h1>
+
+        </div>
+        <div class="panel-body">
+            <table class="table table-hover">
+                <tbody>
+                <tr class="bg-primary">
+                    <th scope="row"></th>
+                    <td><input type="checkbox">全选</td>
+                    <td>商品名字</td>
+                    <td>商品价格</td>
+                    <td>上架时间</td>
+                    <td>总的数量</td>
+                    <td>商品标号</td>
+                    <td>商品产地</td>
+                    <td>商品图片</td>
+                    <td>商品操作</td>
+                </tr>
+                <foreach name="res" item="v">
+                    <tr class="bg-success">
+                        <th scope="row"></th>
+                        <td><input type="checkbox"></td>
+                        <td>{$v.goodname}</td>
+                        <td>{$v.price}</td>
+                        <td>{$v.time}</td>
+                        <td>{$v.total}</td>
+                        <td>{$v.biaohao}</td>
+                        <td>{$v.place}</td>
+                        <td>{$v.picname}</td>
+                        <td>
+                            <a type="button" class="btn btn-primary btn-sm" href="__CONTROLLER__/revise/goodname/{$v.goodname}">
+                                <span class="glyphicon glyphicon-pencil"></span>编辑 </a>
+                            <a type="button" class="btn btn-danger btn-sm" href="__CONTROLLER__/delete/id/{$v.id}">
+                                <span class="glyphicon glyphicon-trash"></span>删除</a>
+                        </td>
+                    </tr>
+                </foreach>
+                </tbody>
+            </table>
+
+        </div>
+    </div>
+</div>
+</body>
+</html>

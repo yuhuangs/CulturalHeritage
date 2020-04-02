@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>后台首页</title>
+    <style>
+        .indexbox{
+            width: 200px;
+            height: 60px;
+            background: #f0d4ff;
+            padding-top: 6px;
+        }
+        .no-pad-top {
+            padding-top: 0;
+        }
+        .block, .block-primary, .block-secondary, .block-light, .block-dark {
+            padding: 15px;
+            margin-bottom: 15px;
+            background: #f0f0f0;
+        }
+        .block-center {
+            text-align: center !important;
+        }
+        .fa-border {
+            border: 1px solid #00aff0;
+            -moz-border-radius: 5px;
+            -webkit-border-radius: 5px;
+            border-radius: 5px;
+            padding: 13px 15px;
+            width: 70px;
+            margin-bottom: 10px;
+        }
+        .fa-primary {
+            color: #00aff0;
+        }
+        .fa-6 {
+            font-size: 40px;
+        }
+        .fa-border {
+            border: 1px solid #00aff0;
+            -moz-border-radius: 5px;
+            -webkit-border-radius: 5px;
+            border-radius: 5px;
+            padding: 13px 15px;
+            width: 70px;
+            margin-bottom: 10px;
+        }
+        .heading-primary, .heading-primary-a {
+            color: #00aff0;
+        }
+    </style>
+</head>
+<body>
+
+<section class="no-pad-top">
+    <div class="container">
+        <div class="col-md-3">
+            <div class="block block-light block-center">
+                <div class="row">
+                    <div class="col-md-6">
+                        <span class="glyphicon glyphicon-user fa-6 fa-primary"></span>
+                    </div>
+                    <div class="col-md-6">
+                        <h3 class="heading-primary">{$guestcount}</h3>
+                        <p>顾客数</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="block block-light block-center">
+                <div class="row">
+                    <div class="col-md-6">
+                        <span class="glyphicon glyphicon-shopping-cart fa-6 fa-primary"></span>
+                    </div>
+                    <div class="col-md-6">
+                        <h3 class="heading-primary">{$dingdancount}</h3>
+                        <p>订单数</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="block block-light block-center">
+                <div class="row">
+                    <div class="col-md-6">
+                        <span class="glyphicon glyphicon-edit fa-6 fa-primary"></span>
+                    </div>
+                    <div class="col-md-6">
+                        <h3 class="heading-primary">{$messagecount}</h3>
+                        <p>留言数</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="block block-light block-center">
+                <div class="row">
+                    <div class="col-md-6">
+                        <span class="glyphicon glyphicon-bullhorn fa-6 fa-primary"></span>
+                    </div>
+                    <div class="col-md-6">
+                        <h3 class="heading-primary">{$noticecount}</h3>
+                        <p>公告数</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="block block-light block-center">
+                <div class="row">
+                    <div class="col-md-6">
+                        <span class="glyphicon glyphicon-bullhorn fa-6 fa-primary"></span>
+                    </div>
+                    <div class="col-md-6">
+                        <h3 class="heading-primary">{$goodcount}</h3>
+                        <p>商品数</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="block block-light block-center">
+                <div class="row">
+                    <div class="col-md-6">
+                        <span class="glyphicon glyphicon-bullhorn fa-6 fa-primary"></span>
+                    </div>
+                    <div class="col-md-6">
+                        <h3 class="heading-primary">{$placecount}</h3>
+                        <p>景点数</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <table class="table table-hover">
+                    <th class="bg-primary">系统信息</th>
+                    <th class="bg-primary"></th>
+                    <tr>
+                        <td>使用技术</td>
+                        <td>thinkphp</td>
+                    </tr>
+                    <tr>
+                        <td>运行环境</td>
+                        <td>Windows（win32/win64）+MYSQL</td>
+                    </tr>
+                    <tr>
+                        <td>MYSQL版本</td>
+                        <td>5.5.47</td>
+                    </tr>
+                    <tr>
+                        <td>ThinkPHP版本</td>
+                        <td>5.5.47</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="col-md-6">
+                <table class="table table-hover">
+                    <th class="bg-primary">团队信息</th>
+                    <th class="bg-primary"></th>
+                    <th class="bg-primary"></th>
+                    <tr>
+                        <td>张积雨</td>
+                        <td>男</td>
+                        <td>重庆师范大学</td>
+                    </tr>
+                    <tr>
+                        <td>肖春玲</td>
+                        <td>女</td>
+                        <td>重庆师范大学</td>
+                    </tr>
+                    <tr>
+                        <td>叶媛</td>
+                        <td>女</td>
+                        <td>重庆师范大学</td>
+                    </tr>
+                    <tr>
+                        <td>包静</td>
+                        <td>女</td>
+                        <td>重庆师范大学</td>
+                    </tr>
+                </table>
+            </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+</body>
+</html>

@@ -1,0 +1,172 @@
+<title>追遗首页</title>
+<br>
+<div class="container" id="container1">
+    <div class="row" id="center1">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8" id="lunbo">
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active">
+                    </li>
+                    <li data-target="#carousel-example-generic" data-slide-to="1" class="active">
+                    </li>
+                    <li data-target="#carousel-example-generic" data-slide-to="2" class="active">
+                    </li>
+                </ol>
+                <div class="carousel-inner" style="text-align: center">
+                    <div class="item active">
+                        <img alt="First slide" src="__PUBLIC__/Home/image/mianju.jpg"/>
+                        <div class="carousel-caption">
+
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img alt="Second slide" src="__PUBLIC__/Home/image/huasan.jpg" />
+                        <div class="carousel-caption">
+
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img alt="Third slide" src="__PUBLIC__/Home/image/piying.jpg" />
+                        <div class="carousel-caption">
+
+                        </div>
+                    </div>
+                </div>
+                <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4" id="gonggao">
+            <div class="title-style">公告发布</div>
+            <div id="myTabContent" class="tab-content">
+                <div class="tab-pane active" id="gonggaobg">
+                    <table class="table table-hover">
+                        <thead>
+                        </thead>
+                        <tbody>
+                        <foreach name="list" item="g">
+                            <a href="">
+                                <tr>
+                                    <td class="notice_title"><strong>{$g.title|msubstr=###,0,12,'utf-8'}</strong></td>
+                                    <td>{$g.time}</td>
+                                </tr>
+                            </a>
+                        </foreach>
+                        </tbody>
+                    </table>
+                    <div class="under-box">
+                        <div class="page-list pages" id="page">
+                            {$page}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="row" id="center2">
+        <div class="col-xs-12 col-sm-12 col-md-12  col-lg-8" id="center2-1">
+            <div class="center-insidebox">
+                <div class="inside" id="policy">
+                    <div class="title-style">政策发布</div>
+                    <div class="table-box">
+                    <table class="table table-hover">
+                        <tbody>
+                        <foreach name="policy" item="policy">
+                            <tr>
+                                <td class="notice_title">{$policy.title|msubstr=###,0,16,'utf-8'}</td>
+                                <td>{$policy.time}</td>
+                            </tr>
+                        </foreach>
+                        </tbody>
+                    </table>
+                    <div class="under">
+                        <a href="{:U('Policy/index')}"><h4>查看更多</h4></a>
+                    </div>
+                    </div>
+                </div>
+                <div class="inside2" id="minglu">
+                    <div class="title-style">非遗名录</div>
+                    <div id="minglu-main">
+                        <div id="minglu_content">
+                            <foreach name="director" item="dir">
+                                <div class="minglu">
+                                    <b>{$dir}</b>
+                                </div>
+                            </foreach>
+                        </div>
+                        <div class="under">
+                            <a href="{:U('Minglu/index')}"><h4>查看更多</h4></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12  col-lg-4" id="center2-2">
+            <div class="center-insidebox" id="dynamic">
+                <div class="title-style">最新动态</div>
+                <div class="table-box">
+                <table class="table table-hover">
+                    <tbody>
+                    <foreach name="dynamic" item="dynamic">
+                        <tr>
+                            <td class="notice_title">{$dynamic.title|msubstr=###,0,10,'utf-8'}</td>
+                            <td>{$dynamic.time}</td>
+                        </tr>
+                    </foreach>
+                    </tbody>
+                </table>
+                    <div class="under">
+                        <a href="{:U('Dynamic/index')}"><h4>查看更多</h4></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="row" id="center3">
+        <div class="col-xs-12 col-sm-12 col-md-12  col-lg-8" id="center3-1">
+            <div id="inheritor">
+                <div class="inside1">
+                    <div id="inheritor-title">
+                        <span>非遗传承人</span>
+                    </div>
+
+                    <div id="inheritor-content">
+                        <span>{$inher.qname} · {$inher.name}</span>
+                        <p>{$inher.intro|msubstr=###,0,400,'utf-8'}</p>
+                    </div>
+                </div>
+                <div class="insidepic">
+                    <img id="insidepic" src="__PUBLIC__/Home/image/inheritor/{$inher.id}.jpg">
+                    <div id="insidepic1">
+                        {$inher.qname}
+                    </div>
+                </div>
+            </div>
+            <div id="more">
+                <a>点击查看更多非遗传承人</a>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12  col-lg-4" id="center3-2">
+
+        </div>
+    </div>
+</div>
+<div class="container" id="container2">
+    <section id="dg-container" class="dg-container">
+        <div class="dg-wrapper">
+            <a href="#"><img src="__PUBLIC__/Home/image/shop/products/banya2.jpg" alt="image1" /></a>
+            <a href="#"><img src="__PUBLIC__/Home/image/shop/products/douchi2.jpg" alt="image2" /></a>
+            <a href="#"><img src="__PUBLIC__/Home/image/shop/products/hotpot2.jpg" alt="image3" /></a>
+            <a href="#"><img src="__PUBLIC__/Home/image/shop/products/taopian2.jpg" alt="image4" /></a>
+            <a href="#"><img src="__PUBLIC__/Home/image/shop/products/weike2.jpg" alt="image5" /></a>
+            <a href="#"><img src="__PUBLIC__/Home/image/shop/products/zhulian2.jpg" alt="image1" /></a>
+        </div>
+    </section>
+</div>
+

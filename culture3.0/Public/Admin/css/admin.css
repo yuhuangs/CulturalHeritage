@@ -1,0 +1,42 @@
+body,ul,h1,p{margin:0;padding:0;}
+body{color: #2b5464;min-width:592px;overflow:hidden;}
+ul{list-style:none;}
+a{color:#07A;text-decoration:none;}
+a:hover{;text-decoration:underline;}
+.left{float:left;}
+.right{float:right;}
+.clear{clear:both;}
+.center{text-align:center;}
+/*登录页*/
+.login{background:#96CDCD;overflow:visible;}
+.login_box{width:400px;background:#fff;margin:7% auto;padding:50px;box-shadow:0 0 15px #B5CFD9;}
+.login_box h1{font-size:24px;color:#09C;text-align:center;}
+.login_box img{cursor:pointer;}
+.login_box table{width:100%;height:300px;margin:0 auto;margin-top:20px;}
+.login_box th{text-align:right;font-weight:normal;}
+.login_box .input{width:250px;height:20px;border:1px solid #ddd;padding:5px;color:#666;font-size:20px;}
+.login_box .login_btn{width:80px;height:30px;margin:0 auto;background:#09C;color:#fff;border:1px solid #96CDCD;cursor:pointer;}
+/*后台公共*/
+#top{height:60px;background: #96CDCD;border-bottom:2px solid #B5CFD9;line-height:60px;}
+#top h1{font-size:20px;color: #2b5464;margin-left:20px;}
+#top ul{margin-right:50px;}
+#top li{float:left;margin-left:10px;}
+#main{position:absolute;top:62px;left:0px;right:0px;bottom:0px;}
+#main{*height:100%;}/*IE Fix*/
+#menu{width:160px;height:100%;background: #96CDCD;box-shadow:0px 8px 12px #96CDCD inset;}
+#menu ul{margin-top:35px;}
+#menu li{margin-bottom:5px;}
+#menu a{display:block;text-decoration:none;color:#555;padding:4px;text-indent:30px;}
+#menu a:hover{background:#EAF4FB;color:#2366A8;}
+#menu .curr{background:#96CDCD!important;color:#555!important;}
+#content{position:absolute;top: 0px;right:0px;left:161px;bottom:0;overflow-y:auto;background: white;border-left:1px solid #B5CFD9;box-shadow:0px 8px 12px #DEEFFA inset;}
+#content .item{line-height:40px;margin-top:18px;margin-left:25px;margin-bottom:30px;}
+#content .title{color:#09C;font-weight:bold;float:left;margin-bottom:10px;}
+#content .title-btn{margin-left:20px;padding-top:7px;}
+#content .title-btn a{display:block;padding:1px 10px;background:#09C;color:#fff;height:25px;line-height:25px;font-size:13px;}
+#content .title-btn a:hover{text-decoration: none;}
+/*分页列表*/
+.pagelist{margin-top:10px;margin-left:250px;}
+.pagelist a{margin:0 5px;border:1px solid #ddd;padding:1px 4px;color:#666;}
+.pagelist a:hover{text-decoration: none;}
+.pagelist span{padding:1px 4px;}
